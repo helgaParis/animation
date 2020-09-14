@@ -75,7 +75,7 @@ export default function Layout({ children}) {
        
       </header>
 
-      <main className={styles.main}>{children}</main>
+      <main>{children}</main>
       <footer className={styles.footer}>
           <a 
               href="https://artistessansfrontieres.fr"
