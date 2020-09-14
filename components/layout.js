@@ -3,7 +3,7 @@ import utilStyles from '../styles/layout.module.css'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
-//const name = 'paris14conseil'
+const name = 'paris14conseil'
 export const siteTitle = 'Conseil de Quartier Jean Moulin Porte d\'Orléans' 
 
 export default function Layout({ children}) {
