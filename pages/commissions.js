@@ -32,7 +32,7 @@ export default function Commissions() {
                 </li>
                 <li>
                 <Link classname={styles.linkintern} href="/climat">
-                    <a title="Climat">Climat</a>
+                    <a title="Climat">Climat !</a>
                 </Link>
                 </li>
                 <li>Proprété</li>
