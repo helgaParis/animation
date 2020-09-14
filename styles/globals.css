@@ -18,11 +18,11 @@ a {
 }
 
 /* dernière version - maintenant in Home.module */
-  /*
+  
 a:hover {
     text-decoration: underline;
   }
-  
+/*
  img {
     max-width: 100%;
     display: block;
