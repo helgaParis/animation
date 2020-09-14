@@ -52,8 +52,15 @@
     /* align-items: center; */
   }
   .main a:hover {
-    text-decoration: underline;
+        background-color: rgb(103, 214, 252);
+        text-decoration: none;
+        color:rgb(180, 6, 6);
+        font-weight: 700;
   }
+  .main a {
+    background-color: rgb(223, 240, 245);
+    font-weight: 500;
+}
   
   .footer {
     width: 100%;
