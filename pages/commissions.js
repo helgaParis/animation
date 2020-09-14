@@ -25,10 +25,16 @@ export default function Commissions() {
         <div>
             <h2>Les commissions actives</h2>
             <ul>
-                <li>Urbanisme</li>
-                <Link href="/climat">
+                <li> 
+                <Link classname={styles.linkintern} href="/urbanisme">
+                    <a title="Urbanisme">Urbanisme</a>
+                </Link>
+                </li>
+                <li>
+                <Link classname={styles.linkintern} href="/climat">
                     <a title="Climat">Climat</a>
                 </Link>
+                </li>
                 <li>Proprété</li>
                 <li>Jeux Olypmiques</li>
                 <li>...</li>
