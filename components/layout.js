@@ -43,30 +43,65 @@ export default function Layout({ children}) {
         
 
             <div className={styles.navbar}>
-                 <Link href="/">
-                 <a title="Accueil">Accueil</a>
-                 </Link>
-                 <Link href="/commissions">
-                 <a title="Les Commissions actives">Commissions</a>
-                 </Link>
-                 <Link href="/comitee">
-                 <a title="Le Comitée d'Animations" >Comitée</a>
-                 </Link> 
-                 <Link href="/charte">
-                 <a title="La Charte des Conseils" >Charte</a>
-                 </Link>
-                 <Link href="/contribuer">
-                 <a title="Contribuer au Conseil" >Contribuer</a>
-                 </Link>
-                 <Link href="/histoire">
-                 <a title="L'histoire des Conseils de Quartier" >Histoire</a>
-                 </Link>
-                 <Link href="/mentions">
-                 <a title="Mentions légales" >Mentions</a>
-                 </Link>
-                 <Link href="/posts">
+                <ul>
+                    <li><Link href="/">
+                         <a title="Accueil">Accueil</a>
+                         </Link>
+                    </li>
+                    <li><Link href="/commissions">
+                         <a title="Les Commissions actives">Commissions</a>
+                         </Link>
+                         <ul className={styles.menu2}>
+                            <li >
+                                <Link href="/urbanisme">
+                                 <a title="Commission d/'Urbanisme" >Urbanisme</a>
+                                </Link>
+                            </li>
+                            <li >
+                                <Link href="/climat">
+                                 <a title="Commission Climat" >Climat</a>
+                                </Link>
+                            </li>
+                            <li >
+                                <Link href="/projets">
+                                 <a title="Projets des commissions" >Projets</a>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/contribuer">
+                                 <a title="Contribuer au Conseil" >Contribuer</a>
+                                 </Link>
+                            </li>
+                         </ul>
+                    </li>
+                    <li><Link href="/comitee">
+                        <a title="Nous" >. Nous .</a>
+                        </Link>
+                        <ul className={styles.menu2}>
+                            <li><Link href="/comitee">
+                         <a title="Le Comitée d'Animation" >Comitée</a>
+                         </Link> </li>
+                            <li><Link href="/charte">
+                         <a title="La Charte des Conseils du Quartier" >Charte</a>
+                         </Link></li>
+                            <li> <Link href="/histoire">
+                         <a title="L'histoire des Conseils de Quartier" >Histoire</a>
+                         </Link></li>
+                            <li><Link href="/realisations">
+                         <a title="Les réalisations du Conseil Jean Moulin Porte d\'Orléans" >Réalisations</a>
+                         </Link></li>
+                            <li><Link href="/mentions">
+                         <a title="Mentions légales" >Mentions</a>
+                         </Link></li>
+                        </ul>
+                    </li>
+                    <li> <Link href="/blog">
                  <a title="Actualités" >Actualités</a>
-                 </Link>
+                 </Link></li>
+                </ul>
+
+                 
+               
              </div>
           
             <h1 className={utilStyles.headingLg}>Conseil du Quartier, Paris 14, JM PO</h1>

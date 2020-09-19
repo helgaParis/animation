@@ -21,7 +21,7 @@ export default function Contribuer() {
         }
   
       function handleSubmit(evt) {
-          event.preventDefault();
+          evt.preventDefault();
           console.log('ici il devrait avoir le resultat: '+
            state.firstName + '  ' + state.lastName + '  ' + state.email+ '  ' + state.contacter+ '  ' + state.contribution
           );
