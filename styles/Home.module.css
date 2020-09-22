@@ -88,7 +88,7 @@
         font-weight: 700;
   }
   .main a {
-    background-color: rgb(223, 240, 245);
+    border-bottom: 1px solid rgb(135, 151, 238);
     font-weight: 500;
 }
 

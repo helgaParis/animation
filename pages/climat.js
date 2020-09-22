@@ -14,12 +14,12 @@ export default function Climat() {
         <div className={utilStyles.textgauche}>
             <h1 className={styles.main} >La commission Climat</h1>
             <h3>Dernières Activités - Appel à la participation</h3>
-            <p>La commission du climat souhaite iniier un forum sur le climat,
+            <p>La commission du climat souhaite initier un forum sur le climat,
                 une grand salon où les entreprises<br></br> et associations du 14e peuvent se presenter
                 et rencontrer le publique        </p>
             <p> La commission cherche des benevoles et des candidatures à la participation</p>
             <li>Pariticper en tant que exposant</li>
-            <li>participer à l'animation</li>
+            <li>Participer à l'animation</li>
             <li>Aider à organiser le forum</li>
             <li>Aider à installer le salon</li>
             <li>... etc</li>

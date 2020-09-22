@@ -1,0 +1,19 @@
+.plan14 {
+    max-width: 600px;
+    max-height: 500px;
+}
+.row{
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    flex-wrap: wrap;
+}
+.column {
+    flex: 50%;
+    max-width: 47%;
+    align-self: center;
+    padding-right:3%;
+}
+.columnright{
+    flex:50%;
+    text-align: right;
+}
