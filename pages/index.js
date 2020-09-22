@@ -53,7 +53,30 @@ export default function Home() {
                         39 à 85 rue d’Alésia, côté impair de la rue des Plantes (dans sa partie comprise entre la rue d’Alésia 
                         et le boulevard Brune) et toutes les rues à l’intérieur de cette délimitation.
                     </p>
-                    <h3>Quel est le rôle du conseil de quartier ?</h3>
+                </div>
+                <div className={stylesPlan.columnright}>
+                    <img src="/plan14e.jpg" className={stylesPlan.plan14} alt="Plan des six quartiers du 14e arrondissemnt de Paris" ></img>
+                </div>
+            
+            <div className={stylesPlan.row}>
+                
+                <div className={stylesPlan.column}>
+                    <div className={styles.encadre}>
+                        <h4>Le saviez-vous ?</h4>
+                        <p>Lorsqu’il souhaite porter à l’attention de la mairie un sujet particulier d’intérêt local, 
+                            le conseil de quartier, à l’instar des élus locaux, a le pouvoir de formuler un voeu auprès 
+                            du maire de l’arrondissement. Si le voeu est inscrit à l’ordre du jour du conseil 
+                            d’arrondissement, il sera alors examiné, débattu, puis soumis aux votes des conseillers 
+                            d’arrondissement, qui pourront l’adopter - en totalité ou partiellement - ou le rejeter. 
+                        <p>En 2018, le conseil de quartier Montparnasse-Raspail a par exemple formulé un voeu pour 
+                            la création d’un espace dédié aux activités artistiques et culturelles au rez-de-chaussée 
+                            du futur immeuble à l’angle des rues Gaîté et Jolivet (source compte-rendu du conseil d’arrondissement 
+                            du 6 novembre 2018)</p>
+                        </p>
+                    </div>
+                </div>
+                <div className={stylesPlan.columnright}>
+                <h3>Quel est le rôle du conseil de quartier ?</h3>
                     <p>Les missions du conseil de quartier Jean Moulin - Porte d’Orléans sont définies par 
                         la mairie du 14e arrondissement dans la charte des conseils de quartier du 14e. 
                     </p>
@@ -75,12 +98,9 @@ export default function Home() {
                                 origines et leurs opinions.
                             </li>
                         </ul>
-                </p>
-                </div>
-                <div className={stylesPlan.columnright}>
-                    <img src="/plan14e.jpg" className={stylesPlan.plan14} alt="Plan des six quartiers du 14e arrondissemnt de Paris" ></img>
-                </div>
+                </p></div>
                     
+            </div>
             </div>
            
         </main>

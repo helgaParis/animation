@@ -15,5 +15,5 @@
 }
 .columnright{
     flex:50%;
-    text-align: right;
+    padding-left:2%;
 }
