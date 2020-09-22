@@ -34,7 +34,7 @@ export default function Home() {
                             <li>Mouton Duvernet</li>
                             <li>Pernety</li>
                         </ul>
-</p>
+                    </p>
                     <p> Les conseils de quartier existent dans les communes de plus de 80 000 habitants depuis 2002. 
                         Ils sont un élément de la {" "}
                         <a
@@ -47,11 +47,35 @@ export default function Home() {
                         </a>
                         </p>
                     <h3>La délimination des quartier est définie dans l'annexe de la charte </h3>
-                    <p>Le Conseil de quartier « Jean Moulin – Porte d’Orléans » couvre le territoire : boulevard Romain Rolland, 
+                    <h4>Le Conseil de quartier « Jean Moulin – Porte d’Orléans » couvre le territoire : </h4>
+                    <p>boulevard Romain Rolland, 
                         rue du Professeur H. Vincent côté pair, rue Emile Faguet côté pair, 86 à 160 rue de la Tombe Issoire, 
                         39 à 85 rue d’Alésia, côté impair de la rue des Plantes (dans sa partie comprise entre la rue d’Alésia 
                         et le boulevard Brune) et toutes les rues à l’intérieur de cette délimitation.
-</p>
+                    </p>
+                    <h3>Quel est le rôle du conseil de quartier ?</h3>
+                    <p>Les missions du conseil de quartier Jean Moulin - Porte d’Orléans sont définies par 
+                        la mairie du 14e arrondissement dans la charte des conseils de quartier du 14e. 
+                    </p>
+                    <p>A ce titre, le conseil de quartier est à la fois un lieu :
+                        <ul>
+                            <li>d’information, de consultation et de concertation sur les orientations, 
+                                les projets et les décisions de la municipalité concernant le quartier.
+                            </li>
+                            <li>d’écoute des problèmes et des attentes des habitants pour les faire connaître 
+                                à la mairie.
+                            </li>
+                            <li>d’élaboration et d’accompagnement de projets d’intérêt collectif intéressant la vie
+                                du quartier.
+                            </li>
+                            <li>de suivi des projets retenus concernant le quartier dans le cadre du Budget 
+                                participatif parisien.
+                            </li>
+                            <li>de dialogue entre les différents acteurs du quartier, quelles que soient leurs 
+                                origines et leurs opinions.
+                            </li>
+                        </ul>
+                </p>
                 </div>
                 <div className={stylesPlan.columnright}>
                     <img src="/plan14e.jpg" className={stylesPlan.plan14} alt="Plan des six quartiers du 14e arrondissemnt de Paris" ></img>
