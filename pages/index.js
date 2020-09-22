@@ -31,7 +31,12 @@ export default function Home() {
                         </p>
                         
                     <p>Le 14 arrondissement de Paris en compte six, dont Jean Moulin - Porte d'Orléans</p>
-
+                    <h3>La délimination des quartier est définie dans l'annexe de la charte </h3>
+                    <p>Le Conseil de quartier « Jean Moulin – Porte d’Orléans » couvre le territoire : boulevard Romain Rolland, 
+                        rue du Professeur H. Vincent côté pair, rue Emile Faguet côté pair, 86 à 160 rue de la Tombe Issoire, 
+                        39 à 85 rue d’Alésia, côté impair de la rue des Plantes (dans sa partie comprise entre la rue d’Alésia 
+                        et le boulevard Brune) et toutes les rues à l’intérieur de cette délimitation.
+</p>
                 </div>
                 <div className={stylesPlan.columnright}>
                     <img src="/plan14e.jpg" className={stylesPlan.plan14} alt="Plan des six quartiers du 14e arrondissemnt de Paris" ></img>
