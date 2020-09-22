@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
 const name = 'paris14conseil'
-export const siteTitle = 'Conseil de Quartier Jean Moulin Porte d\'Orléans' 
+export const siteTitle = 'Conseil de quartier JMPO' 
 
 export default function Layout({ children}) {
     return (
