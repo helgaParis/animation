@@ -90,6 +90,11 @@ export default function Layout({ children}) {
                                     </Link> 
                                 </li>
                                 <li>
+                                    <Link href="/budget">
+                                    <a title="Le budget du Conseil de Quartier" >Budget</a>
+                                    </Link>
+                                </li>
+                                <li>
                                     <Link href="/charte">
                                     <a title="La Charte des Conseils du Quartier" >Charte</a>
                                     </Link>
