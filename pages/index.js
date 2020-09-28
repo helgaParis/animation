@@ -5,7 +5,7 @@ import stylesPlan from '../styles/plan.module.css'
 
 export default function Home() {
   return (
-    <Layout >
+    < >
         <Head>
             <title>Paris 14e - Conseil du Quartier Jean Moulin Porte d'Orléans</title>
             <meta
@@ -27,6 +27,6 @@ export default function Home() {
            
         </main>
 
-    </Layout>
+    </>
   )
 }
