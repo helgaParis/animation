@@ -17,15 +17,17 @@ export default function Home() {
 
         <main className={styles.main}>
             <h1 className={styles.title}>Conseil de quartier Jean Moulin Porte d’Orléans (JMPO)</h1>
-           <h2>Plenière le 6 octobre 2020 à 19h</h2>
-            <p>Cette page est temporaire. Vous pouvez nous envoyer vos propositions concernant l'ordre du jour de la Pleinière et 
+           <h2>Plénière le 6 octobre 2020 à 19h</h2>
+            <p>Vous pouvez nous envoyer vos propositions concernant l'ordre du jour de la plénière et 
                 autres voeux via ce site : </p>
             <p>Envoyer des {" "}
             <a href={`mailto:${email}?subject=Plenière du Conseil du Quartier JM PO&body= Mes Propositions :`}>propositions par email</a>
             </p>
-            <p> Via un formulaire: quelqus jours avant la Plenière</p>
-            <h2>Lien vers la réunion zoom</h2>   
-            <p>Vous le trouverez sur votre invitation. Il apparaitra également sur cette page un peu avant la réunion</p>
+      
+            <p> Via un formulaire: quelques jours avant la plénière</p>
+            <p>Attention ! Cette page a été conçue pour recueillir vos propositions, mais elle est temporaire, elle sera fermée à la suite de la plénière.  </p>
+            <h2>Lien vers la réunion zoom du 6 octobre à 19h</h2>   
+            <p>Vous trouverez le lien sur votre invitation. Il apparaitra également sur cette page un peu avant la réunion</p>
             
            
         </main>
