@@ -47,7 +47,16 @@ export default function Layout({ children}) {
                              <a title="Accueil">Accueil</a>
                              </Link>
                             <ul className={styles.menu2}>
-                                
+                                <li>
+                                    <Link href="/charte">
+                                    <a title="La Charte des Conseils du Quartier" >Charte</a>
+                                    </Link>
+                                </li>
+                                <li> 
+                                    <Link href="/histoire">
+                                    <a title="L'histoire des Conseils de Quartier" >Histoire</a>
+                                    </Link>
+                                </li> 
                             </ul>
                         </li>
                         <li>
@@ -101,17 +110,7 @@ export default function Layout({ children}) {
                                     <Link href="/budget">
                                     <a title="Le budget du Conseil de Quartier" >Budget</a>
                                     </Link>
-                                </li>
-                                <li>
-                                    <Link href="/charte">
-                                    <a title="La Charte des Conseils du Quartier" >Charte</a>
-                                    </Link>
-                                </li>
-                                <li> 
-                                    <Link href="/histoire">
-                                    <a title="L'histoire des Conseils de Quartier" >Histoire</a>
-                                    </Link>
-                                </li>
+                                </li>                                
                                 <li>
                                     <Link href="/realisations">
                                     <a title="Les réalisations du Conseil Jean Moulin Porte d\'Orléans" >Réalisations</a>
