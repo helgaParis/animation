@@ -68,6 +68,11 @@ export default function Layout({ children}) {
                                     </Link>
                                 </li>
                                 <li >
+                                    <Link href="/poincon">
+                                    <a title="Commission Poinçon" >Poinçon</a>
+                                    </Link>
+                                </li>
+                                <li >
                                     <Link href="/projets">
                                     <a title="Projets des commissions" >Projets</a>
                                     </Link>
@@ -81,7 +86,7 @@ export default function Layout({ children}) {
                         </li>
                         <li>
                             <Link href="/comitee">
-                            <a title="Nous" >. Nous .</a>
+                            <a title="Le fonctionnement du Conseil" >Fonctionnement</a>
                             </Link>
                             <ul className={styles.menu2}>
                                 <li>

@@ -12,8 +12,9 @@ export default function Commitee() {
       </Head>
       <main className={styles.main}>
         
-        <h1 className={styles.title}>Le Comitée d'Animation</h1>
-        
+        <h1 className={styles.title}>Le Comité d'Animation</h1>
+        <p>Réferent: Eric Bouchaud</p>
+        <p>Liste des membres du comité d'animation voir sur le site de la mairie: </p>
         <p>
             
         <a href="https://www.mairie14.paris.fr/vie-citoyenne/les-conseils-de-quartier/le-conseil-de-quartier-jean-moulin-porte-d-orleans-226" rel="noopener" target="_blank"> Page de la mairie: Les membres des commitées d'animation </a> 

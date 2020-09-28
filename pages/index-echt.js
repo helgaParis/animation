@@ -19,7 +19,7 @@ export default function Home() {
             <div className={stylesPlan.row}>
                 <div className={stylesPlan.column}>
                     <h2>Qu’est-ce qu’un conseil de quartier ?</h2>
-                    <p>Le conseil de quartier est une commission consultative du conseil d’arrondissement, politiquement neutre, 
+                    <p>Le conseil de quartier est une instance consultative du conseil d’arrondissement, politiquement neutre, 
                         qui regroupe des habitants du quartier désireux de s’investir dans la vie de leur quartier et d’oeuvrer à 
                         l’amélioration et au dynamisme de leur environnement local. C’est à la fois un lieu d’information, 
                         d’échange et de dialogue entre les citoyens du quartier, mais aussi un lieu d’initiatives et de projets sur toutes les thématiques 

@@ -14,8 +14,9 @@ export default function Urbanisme() {
         
         <h1 className={styles.title}> La Commission Urbanisme </h1>
             {/* un module qui prend des infos standard d'un api? */}
+
             <p>Membres : ...</p>
-            <p>Réferent : ...</p>
+            <p>Réferent : Eric </p>
             <p>Prochaine Réunion : ...</p>
             <p>nous contacter : </p>
         <h1> Projet Porte d'Orléans</h1>
