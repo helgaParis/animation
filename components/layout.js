@@ -42,10 +42,23 @@ export default function Layout({ children}) {
             <header className={styles.header}>
 
                 <div className={styles.navbar}>
-                    <ul>
+                    <ul className={styles.menu2}>
                         <li><Link href="/">
-                             <a title="Accueil">Accueil</a>
-                             </Link>
+                            <a title="Accueil">Accueil</a>
+                            </Link>
+                            <ul>
+                                <li>
+                                    <Link href="/charte">
+                                    <a title="La Charte des Conseils du Quartier" >Charte</a>
+                                    </Link>
+
+                                <li> 
+                                    <Link href="/histoire">
+                                    <a title="L'histoire des Conseils de Quartier" >Histoire</a>
+                                    </Link>
+                                </li>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <Link href="/commissions">
@@ -85,30 +98,20 @@ export default function Layout({ children}) {
                             </ul>
                         </li>
                         <li>
-                            <Link href="/comitee">
+                            <Link href="/comite">
                             <a title="Le fonctionnement du Conseil" >Fonctionnement</a>
                             </Link>
                             <ul className={styles.menu2}>
                                 <li>
-                                    <Link href="/comitee">
-                                    <a title="Le Comitée d'Animation" >Comitée</a>
+                                    <Link href="/comite">
+                                    <a title="Le Comité d'Animation" >Comitée</a>
                                     </Link> 
                                 </li>
                                 <li>
                                     <Link href="/budget">
                                     <a title="Le budget du Conseil de Quartier" >Budget</a>
                                     </Link>
-                                </li>
-                                <li>
-                                    <Link href="/charte">
-                                    <a title="La Charte des Conseils du Quartier" >Charte</a>
-                                    </Link>
-                                </li>
-                                <li> 
-                                    <Link href="/histoire">
-                                    <a title="L'histoire des Conseils de Quartier" >Histoire</a>
-                                    </Link>
-                                </li>
+                                </li>                                
                                 <li>
                                     <Link href="/realisations">
                                     <a title="Les réalisations du Conseil Jean Moulin Porte d\'Orléans" >Réalisations</a>
