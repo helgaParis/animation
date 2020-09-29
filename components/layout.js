@@ -130,7 +130,7 @@ export default function Layout({ children}) {
                     </ul>
                 </div>
               
-                <h1 className={utilStyles.headingLg}>Conseil du Quartier, Paris 14, JM PO</h1>    
+                <h1 className={utilStyles.headingLg}>Conseil du Quartier JM PO, Paris 14</h1>    
             </header>
 
             <main>{children}</main>

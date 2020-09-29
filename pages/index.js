@@ -23,7 +23,7 @@ export default function Home() {
                 <ul>
                     <li> <p>Envoyer des {" "}
                     <a href={`mailto:${email}?subject=Plenière du Conseil du Quartier JM PO&body= Mes Propositions :`}>propositions par email</a>
-                    </p>
+                    <br>Si le lien n'ouvre pas votre messagerie, vous pouvez copier l'adresse mail : conseil14@asf-web.fr</br></p>
                     </li>
                     <li> <p> Via un formulaire: quelques jours avant la plénière</p></li>
                 </ul>
