@@ -72,8 +72,23 @@
     font-size: 0.9rem;
     padding:0.2rem;
     background-color: rgb(232, 232, 232);    
- }
- .main {
+}
+.menu3 {
+    border: 1px solid blue;
+    line-height: 1.2rem;
+    font-weight: 500;
+   
+}
+.menu3 li {
+   display: inline;
+   
+    
+}
+.menu3 a{
+    padding-right:  1.5rem;
+    text-decoration: none;
+}
+.main {
     padding: 1rem 0;
     flex: 1;
     display: flex;
