@@ -46,18 +46,6 @@ export default function Layout({ children}) {
                         <li><Link href="/">
                              <a title="Accueil">Accueil</a>
                              </Link>
-                            <ul className={styles.menu2}>
-                                <li>
-                                    <Link href="/charte">
-                                    <a title="La Charte des Conseils du Quartier" >Charte</a>
-                                    </Link>
-                                </li>
-                                <li> 
-                                    <Link href="/histoire">
-                                    <a title="L'histoire des Conseils de Quartier" >Histoire</a>
-                                    </Link>
-                                </li> 
-                            </ul>
                         </li>
                         <li>
                             <Link href="/commissions">
@@ -69,10 +57,10 @@ export default function Layout({ children}) {
                                     <a title="Les Commissions actives">Commissions</a>
                                     </Link>
                                 </li>
-                                <li >
-                                    <Link href="/urbanisme">
-                                    <a title="Commission d/'Urbanisme" >Urbanisme</a>
-                                    </Link>
+                                <li>
+                                    <Link href="/comite">
+                                    <a title="Le Comité d'Animation" >Animation</a>
+                                    </Link> 
                                 </li>
                                 <li >
                                     <Link href="/climat">
@@ -80,8 +68,19 @@ export default function Layout({ children}) {
                                     </Link>
                                 </li>
                                 <li >
+                                    <Link href="/communication">
+                                    <a title="Communication et Site Internet" >Communication</a>
+                                    </Link>
+                                </li>                                
+                                <li >
                                     <Link href="/poincon">
                                     <a title="Commission Poinçon" >Poinçon</a>
+                                    </Link>
+                                </li>
+                                
+                                <li >
+                                    <Link href="/urbanisme">
+                                    <a title="Commission d/'Urbanisme" >Urbanisme</a>
                                     </Link>
                                 </li>
                                 <li >
@@ -89,39 +88,54 @@ export default function Layout({ children}) {
                                     <a title="Projets des commissions" >Projets</a>
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link href="/contribuer">
-                                    <a title="Contribuer au Conseil" >Contribuer</a>
-                                    </Link>
-                                </li>
                             </ul>
                         </li>
                         <li>
-                            <Link href="/comite">
+                            <Link href="/role">
                             <a title="Le fonctionnement du Conseil" >Fonctionnement</a>
                             </Link>
                             <ul className={styles.menu2}>
                                 <li>
-                                    <Link href="/comite">
-                                    <a title="Le Comité d'Animation" >Comité</a>
-                                    </Link> 
+                                    <Link href="/role">
+                                    <a title="Le fonctionnement du Conseil" >Fonctionnement</a>
+                                    </Link>
                                 </li>
                                 <li>
                                     <Link href="/budget">
                                     <a title="Le budget du Conseil de Quartier" >Budget</a>
                                     </Link>
-                                </li>                                
+                                </li>  
+                                <li>
+                                    <Link href="/charte">
+                                    <a title="La Charte des Conseils du Quartier" >Charte</a>
+                                    </Link>
+                                </li>                              
                                 <li>
                                     <Link href="/realisations">
                                     <a title="Les réalisations du Conseil Jean Moulin Porte d\'Orléans" >Réalisations</a>
                                     </Link>
                                 </li>
                                 <li>
+                                    <Link href="/contribuer">
+                                    <a title="Contribuer au Conseil" >Contribuer</a>
+                                    </Link>
+                                </li>                                
+                                <li> 
+                                    <Link href="/histoire">
+                                    <a title="L'histoire des Conseils de Quartier" >Histoire</a>
+                                    </Link>
+                                </li> 
+                                <li>
                                     <Link href="/mentions">
                                     <a title="Mentions légales" >Mentions</a>
                                     </Link>
                                 </li>
                             </ul>
+                        </li>
+                        <li>
+                            <Link href="/realisations">
+                            <a title="Les réalisations du Conseil Jean Moulin Porte d\'Orléans" >Réalisations</a>
+                            </Link>
                         </li>
                         <li> 
                             <Link href="/blog">
