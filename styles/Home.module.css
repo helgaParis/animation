@@ -119,7 +119,12 @@
 }
 .encadre {
     border: 2px ridge rgba(180, 6, 6, 0.795);
-    padding: 0 2%
+    padding: 0 2%;
+}
+.encadrebleu {
+    margin-top:1rem;
+    border: 2px ridge lightblue;
+    padding: 0 2%;
 }
   .footer {
     width: 100%;

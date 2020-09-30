@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import styles from '../styles/Home.module.css'
 import stylesPlan from '../styles/plan.module.css'
+import utilStyles from '../styles/layout.module.css'
 
 export default function Role() {
   return (
@@ -25,7 +26,7 @@ export default function Role() {
             <p>Il existe aujourd’hui 124 conseils de quartier à Paris dont 6 conseils de quartier dans le 14e arrondissement :
                 <ul>
                     <li>Didot - Plaisance - Porte de Vanves</li>
-                    <li>Jean Moulin - Porte d’Orléans</li>
+                    <li className={utilStyles.boldText}>Jean Moulin - Porte d’Orléans</li>
                     <li>Montsouris - Dareau</li>
                     <li>Montparnasse - Raspail</li>
                     <li>Mouton Duvernet</li>
