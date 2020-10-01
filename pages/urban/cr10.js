@@ -25,7 +25,7 @@ export default function cr10() {
             <p>Circulation bien améliorée, notamment pour les bus. Passages piétons plus confortables avec moins d’attente. Pas vraiment satisfaisant pour les vélos qui ne se sentent pas en sécurité avec ce système giratoire double sens (autant par apport aux piétons qu’aux voitures).</p>
             <p>Pourquoi une partie du revêtement couleur claire en réfection ?</p>
             <p>Très dommage : les carrés de verdure ne sont pas valorisants (ni beaux au niveau des plantations, ni propres).</p>
-            <h3>Nuisances causées par les bus</p>
+            <h3>Nuisances causées par les bus</h3>
             <p>Pour mémoire le circuit par la rue Beaunier, sujet déjà largement débattu.  </p>
             <p> Mais aussi : la sortie bruyante des bus au dépôt rue du Père Corentin, avec des sonneries, des bruits de moteur jusqu’à 2h du matin… Les riverains n’en peuvent plus ! </p>
            <h3>Parcs stationnement vélos</h3>
