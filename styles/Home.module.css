@@ -15,25 +15,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(135, 151, 238);
-    color:rgb(155,0,0);
+    background-color: #66bdFF;
+    color:#8C1B19;
     width:106%;
     
   }
   .header a {
       background-color: white;
-      padding:0.5rem;
-      margin:0.2rem;
-      border: 2px solid blue;
-      border-radius: 15%;
+      padding:0.5rem 0.7rem;
+      margin:0.1rem;
+      border-bottom: 1px solid #3366CC;
       color:rgb(180,0,0);
       font-weight: 500;
   }
 
   .header a:hover {
-    background-color: rgb(103, 214, 252);
+    background-color: #CCEEFF;
     text-decoration: none;
-    color:rgb(180, 6, 6);
+    color:#E41525;
     font-weight: 700;
 }
   
@@ -54,13 +53,12 @@
  .menu2 {
     position : absolute;
     display : none;
-    min-width : 100px;
+    min-width : 130px;
     z-index : 3;
-    max-width: 300px;
+    background-color: white;
     padding : 2px;
-    border-radius : 0 0 10px 10px;
     top : 25px;
-    left : 30px;
+    left : 8px;
     right : 45px;       
     font-size: 0.9rem;
 }
@@ -70,23 +68,23 @@
 }
 .menu2 a{
     font-size: 0.9rem;
-    padding:0.2rem;
-    background-color: rgb(232, 232, 232);    
+    padding:0.2rem 0.3rem;
+    margin-bottom: 0.4rem;
 }
 .menu3 {
-    border: 1px solid blue;
-    line-height: 1.2rem;
+    border-top: 1px solid #CCEEFF;
+    border-right: 1px solid #CCEEFF;
+    border-left: 1px solid #66bdFF;
+    border-bottom: 1px solid #66bdFF;
+    line-height: 1rem;
     font-weight: 500;
    
 }
 .menu3 li {
    display: inline;
-   
-    
 }
 .menu3 a{
     padding-right:  1.5rem;
-    text-decoration: none;
 }
 .main {
     padding: 1rem 0;
@@ -97,9 +95,9 @@
     /* align-items: center; */
   }
   .main a:hover {
-        background-color: rgb(103, 214, 252);
+        background-color: #CCEEFF;
         text-decoration: none;
-        color:rgb(180, 6, 6);
+        color:#E41525;
         font-weight: 700;
   }
   .main a {
