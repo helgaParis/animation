@@ -25,11 +25,12 @@ export default function Urbanisme() {
             La commission émet des avis en direction de la mairie d'arrondissement. 
             Elle est également à l'écoute des habitants et peut faire remonter des propositions sur d'autres sujets.
             </p>
+            <h2> Quelques projets sur lesquelles nous trravaillons</h2>
+            <Nav2urban></Nav2urban>
 
-
-        <h2>Les comptes rendus de nos réunions</h2>
-        <Nav1urban></Nav1urban>
-        </main>
-        </Layout>
+            <h2>Les comptes rendus de nos réunions</h2>
+            <Nav1urban></Nav1urban>
+            </main>
+            </Layout>
     )
 }
