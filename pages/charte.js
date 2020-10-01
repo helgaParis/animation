@@ -24,7 +24,6 @@ démocratie locale, la mise en place de six Conseils de quartier :
                 <li>Mouton-Duvernet</li>
                 <li>Pernety</li>
             </ul>
-
   </p>
   <p>Les Conseils de quartier, ouverts à toutes celles et à tous ceux qui habitent, travaillent, étudient ou exercent une 
     activité associative dans le 14ème arrondissement, ont pour objectif de leur permettre de participer à la préparation 
