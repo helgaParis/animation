@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import styles from '../styles/Home.module.css'
 import Nav1urban from '../components/nav1urban'
+import Nav2urban from '../components/nav2urban'
 
 
 export default function Urbanisme() {
