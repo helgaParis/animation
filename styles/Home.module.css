@@ -101,27 +101,28 @@
         font-weight: 700;
   }
   .main a {
-    border-bottom: 1px solid rgb(135, 151, 238);
+    margin-bottom:0.1rem;
+    padding-bottom:0.1rem;
+    border-bottom: 1px solid #3366CC;
     font-weight: 500;
 }
 
 .linkintern:hover {
-      background-color: rgb(103, 214, 252);
+      background-color: #CCEEFF;
       text-decoration: none;
-      color:rgb(180, 6, 6);
+      color:#E41525;
       font-weight: 700;
 }
 .linkintern {
-  background-color: rgb(223, 240, 245);
   font-weight: 500;
 }
 .encadre {
-    border: 2px ridge rgba(180, 6, 6, 0.795);
+    border: 2px ridge #E41525;
     padding: 0 2%;
 }
 .encadrebleu {
     margin-top:1rem;
-    border: 2px ridge lightblue;
+    border: 2px ridge #66BDFF;
     padding: 0 2%;
 }
   .footer {
@@ -146,9 +147,10 @@
 
 
   @media (max-width: 600px) {
-    .grid {
-      width: 100%;
-      flex-direction: column;
-    }
+    .header a {
+         padding:0.2rem;
+         margin:0;
+     }
+    
   }
   
