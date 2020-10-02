@@ -151,6 +151,9 @@
          padding:0.2rem;
          margin:0;
      }
-    
+     .menu3 li {
+         display: block;
+         line-height: 1.5rem;
+      }
   }
   

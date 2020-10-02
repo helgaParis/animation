@@ -8,10 +8,10 @@ import Nav2urban from '../components/nav2urban'
 export default function Urbanisme() {
     return (
         <Layout >
-        <Head>
-          <title>{siteTitle}</title>
-        </Head>
-        <main className={styles.main}>
+          <Head>
+            <title>{siteTitle}</title>
+          </Head>
+          <main className={styles.main}>
         
         <h1 className={styles.title}> La Commission Urbanisme </h1>
             {/* un module qui prend des infos standard d'un api? */}
@@ -27,10 +27,10 @@ export default function Urbanisme() {
             Elle est également à l'écoute des habitants et peut faire remonter des propositions sur d'autres sujets.
             </p>
             <h2> Quelques projets sur lesquelles nous trravaillons</h2>
-            <Nav2urban></Nav2urban>
+          <Nav2urban></Nav2urban>
 
             <h2>Les comptes rendus de nos réunions</h2>
-            <Nav1urban></Nav1urban>
+           <Nav1urban></Nav1urban>
             </main>
             </Layout>
     )
