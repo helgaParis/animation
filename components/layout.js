@@ -48,60 +48,18 @@ export default function Layout({ children}) {
                 <div className={styles.navbar}>
                     <ul>
                         <li><Link href="/">
-                             <a title="Accueil">Accueil</a>
+                             <a title="Accueil">Accueil    </a>                           
                              </Link>
                         </li>
-                        <li>
-                            <Link href="/commissions">
-                            <a title="Les Commissions actives">Commissions</a>
-                            </Link>
-                            <ul className={styles.menu2}>
-                                <li>
-                                    <Link href="/commissions">
-                                    <a title="Les Commissions actives">Commissions</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/comite">
-                                    <a title="Le Comité d'Animation" >Animation</a>
-                                    </Link> 
-                                </li>
-                                <li >
-                                    <Link href="/climat">
-                                    <a title="Commission Climat" >Climat</a>
-                                    </Link>
-                                </li>
-                                <li >
-                                    <Link href="/communication">
-                                    <a title="Communication et Site Internet" >Communication</a>
-                                    </Link>
-                                </li>                                
-                                <li >
-                                    <Link href="/poincon">
-                                    <a title="Commission Poinçon" >Poinçon</a>
-                                    </Link>
-                                </li>
-                                
-                                <li >
-                                    <Link href="/urbanisme">
-                                    <a title="Commission d/'Urbanisme" >Urbanisme</a>
-                                    </Link>
-                                </li>
-                                <li >
-                                    <Link href="/projets">
-                                    <a title="Projets des commissions" >Projets</a>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </li>
+                        
                         <li>
                             <Link href="/role">
-                            <a title="Le fonctionnement du Conseil" >Fonctionnement</a>
+                            <a title="Le fonctionnement du Conseil" >Conseil</a>
                             </Link>
                             <ul className={styles.menu2}>
                                 <li>
                                     <Link href="/role">
-                                    <a title="Le fonctionnement du Conseil" >Fonctionnement</a>
+                                    <a title="Le fonctionnement du Conseil" >Rôle du Conseil</a>
                                     </Link>
                                 </li>
                                 <li>
@@ -136,9 +94,55 @@ export default function Layout({ children}) {
                                 </li>
                             </ul>
                         </li>
+                        
                         <li>
-                            <Link href="/realisations">
-                            <a title="Les réalisations du Conseil Jean Moulin Porte d\'Orléans" >Réalisations</a>
+                            <Link href="/commissions">
+                            <a title="Les Commissions actives">Commissions</a>
+                            </Link>
+                            <ul className={styles.menu2}>
+                                <li>
+                                    <Link href="/commissions">
+                                    <a title="Les Commissions actives">Commissions</a>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/comite">
+                                    <a title="Le Comité d'Animation" >Animation</a>
+                                    </Link> 
+                                </li>
+                                <li >
+                                    <Link href="/climat">
+                                    <a title="Commission Climat" >Climat</a>
+                                    </Link>
+                                </li>
+                                <li >
+                                    <Link href="/communication">
+                                    <a title="Communication et Site Internet" >Communication</a>
+                                    </Link>
+                                </li>                                
+                                <li >
+                                    <Link href="/poincon">
+                                    <a title="Commission Poinçon" >Poinçon</a>
+                                    </Link>
+                                </li>                              
+                                <li >
+                                    <Link href="/urbanisme">
+                                    <a title="Commission d/'Urbanisme" >Urbanisme</a>
+                                    </Link>
+                                </li>
+                                <li >
+                                    <Link href="/projets">
+                                    <a title="Projets des commissions" >Projets</a>
+                                    </Link>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <br className={styles.smalldistance} />
+                        
+                        <li >
+                            <Link href="/realisations" >
+                            <a title="Les réalisations du Conseil Jean Moulin Porte d\'Orléans" >  Réalisations</a>
                             </Link>
                         </li>
                         <li> 
@@ -148,7 +152,9 @@ export default function Layout({ children}) {
                     </ul>
                 </div>
               
-                <h1 className={utilStyles.headingLg}>Conseil du Quartier JM PO, Paris 14</h1>    
+                <h1 className={utilStyles.headingLg}>Conseil de Quartier 
+                <span  className={styles.big} >JM PO, Paris 14</span>
+                </h1>    
             </header>
 
             <main>{children}</main>
@@ -158,7 +164,7 @@ export default function Layout({ children}) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                    Créé par {' '}
+                    Créé par Zeliha Chaffin (textes), Helga Petrovic (code) et l'équipe de  {' '}
                     <img src="/asf20p.png" alt="Artistes sans Frontières"  />
                 </a> 
             </footer>

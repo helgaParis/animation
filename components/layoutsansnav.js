@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
 const name = 'paris14conseil'
-export const siteTitle = 'Conseil de quartier  JM PO Paris 14e ' 
+export const siteTitle = "Paris 14e - Conseil du Quartier Jean Moulin Porte d'Orléans"
 
 export default function Layout({ children}) {
     return (
@@ -96,7 +96,7 @@ export default function Layout({ children}) {
                         </li>
                         <li>
                             <Link href="/">
-                            <a title="Le fonctionnement du Conseil" >Fonctionnement</a>
+                            <a title="Le fonctionnement du Conseil" >Conseil</a>
                             </Link>
                             <ul className={styles.menu2}>
                                 <li>
@@ -136,6 +136,9 @@ export default function Layout({ children}) {
                                 </li>
                             </ul>
                         </li>
+                        
+                        <br className={styles.smalldistance} />
+                        
                         <li>
                             <Link href="/">
                             <a title="Les réalisations du Conseil Jean Moulin Porte d\'Orléans" >Réalisations</a>
@@ -148,7 +151,9 @@ export default function Layout({ children}) {
                     </ul>
                 </div>
               
-                <h1 className={utilStyles.headingLg}>{siteTitle}</h1>    
+                <h1 className={utilStyles.headingLg}>Conseil de Quartier 
+                 <span  className={styles.big} >JM PO, Paris 14</span>
+                 </h1>    
             </header>
 
             <main>{children}</main>
@@ -158,7 +163,7 @@ export default function Layout({ children}) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                    Créé par {' '}
+                    Créé par Zeliha Chaffin (textes), Helga Petrovic (code) et l'équipe de  {' '}
                     <img src="/asf20p.png" alt="Artistes sans Frontières"  />
                 </a> 
             </footer>

@@ -49,7 +49,7 @@
  .navbar li:hover .menu2, 
  .navbar li:focus .menu2 {
     display : block;
-    }
+}
  .menu2 {
     position : absolute;
     display : none;
@@ -85,6 +85,13 @@
 .menu3 a{
     padding-right:  1.5rem;
 }
+.big{
+  display: block;
+}
+.small,.smalldistance{
+  display: none;
+}
+
 .main {
     padding: 1rem 0;
     flex: 1;
@@ -154,6 +161,16 @@
      .menu3 li {
          display: block;
          line-height: 1.5rem;
+      }
+      .big{
+        display: none;
+      }
+      .small{
+        display: block;
+      }
+      .smalldistance{
+        display:block;
+        line-height: 3rem;
       }
   }
   
