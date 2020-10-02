@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Layout >
         <Head>
-            <title>Paris 14e - Conseil du Quartier Jean Moulin Porte d'Orléans</title>
+            <title>{siteTitle}</title>
             <meta
                 name="keywords"
                 content="Accueil, conseil de quartier, democratie participative, democratie de proximité, contribuer, vie de quartier"
