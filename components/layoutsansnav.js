@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
 const name = 'paris14conseil'
-export const siteTitle = 'Conseil de quartier JMPO' 
+export const siteTitle = 'Conseil de quartier  JM PO Paris 14e ' 
 
 export default function Layout({ children}) {
     return (
@@ -148,7 +148,7 @@ export default function Layout({ children}) {
                     </ul>
                 </div>
               
-                <h1 className={utilStyles.headingLg}>Conseil du Quartier JM PO, Paris 14</h1>    
+                <h1 className={utilStyles.headingLg}>{siteTitle}</h1>    
             </header>
 
             <main>{children}</main>
