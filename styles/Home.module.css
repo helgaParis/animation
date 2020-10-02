@@ -78,7 +78,6 @@
     border-bottom: 1px solid #66bdFF;
     line-height: 1rem;
     font-weight: 500;
-   
 }
 .menu3 li {
    display: inline;
@@ -117,18 +116,19 @@
   font-weight: 500;
 }
 .encadre {
+  margin-bottom:1rem;
     border: 2px ridge #E41525;
     padding: 0 2%;
 }
 .encadrebleu {
-    margin-top:1rem;
+    margin-bottom:1rem;
     border: 2px ridge #66BDFF;
     padding: 0 2%;
 }
   .footer {
     width: 100%;
     height: 100px;
-    border-top: 1px solid #f7d4d4;
+    border-top: 1px solid #66bdFF;
     display: flex;
     justify-content: center;
   }

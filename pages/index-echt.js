@@ -22,6 +22,11 @@ export default function Home() {
             <div className={stylesPlan.row}>
 
                 <div className={stylesPlan.column}>
+                    <div className={styles.encadrebleu}>
+                    <h2>Agenda</h2>
+                    <h3>Plénière du Conseil de quartier : le 6 octobre 2020 à 19h en visio-conférence</h3>
+                    <p>Lien zoom : à suivre</p>
+                    </div>
                     <div className={styles.encadre}>
                         <h2>Dernières Nouvelles</h2>
                         
@@ -34,11 +39,7 @@ export default function Home() {
                         
                         et de nous informer de vos événements dans le quartier.</p>
                     </div>
-                    <div className={styles.encadrebleu}>
-                        <h2>Agenda</h2>
-                        <h3>Plénière du Conseil de quartier : le 6 octobre 2020 à 19h en visio-conférence</h3>
-                        <p>Lien zoom : à suivre</p>
-                    </div>
+                    
                     
                 </div>
                 <div className={stylesPlan.columnright}>
@@ -51,17 +52,6 @@ export default function Home() {
                         et le boulevard Brune) et toutes les rues à l’intérieur de cette délimitation.
                     </p>
                 </div>
-            
-            <div className={stylesPlan.row}>
-                
-                <div className={stylesPlan.column}>
-                    <div className={styles.encadre}>
-                        
-                    </div>
-                </div>
-                
-                    
-            </div>
             </div>
            
         </main>

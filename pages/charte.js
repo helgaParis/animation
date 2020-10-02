@@ -15,7 +15,7 @@ export default function Charte() {
         <h1 className={styles.title}>La charte des Conseils de Quartier</h1>
         <p>Extraits :</p>
         <p>Le Conseil du 14ème arrondissement a décidé, dans le cadre du développement de la
-démocratie locale, la mise en place de six Conseils de quartier :
+démocratie locale, la mise en place de six Conseils de quartier :</p>
             <ul>
                 <li>Didot-Plaisance-Porte-de-Vanves</li>
                 <li className={utilStyles.boldText}>Jean-Moulin-Porte-D’Orléans</li>
@@ -24,7 +24,7 @@ démocratie locale, la mise en place de six Conseils de quartier :
                 <li>Mouton-Duvernet</li>
                 <li>Pernety</li>
             </ul>
-  </p>
+  
   <p>Les Conseils de quartier, ouverts à toutes celles et à tous ceux qui habitent, travaillent, étudient ou exercent une 
     activité associative dans le 14ème arrondissement, ont pour objectif de leur permettre de participer à la préparation 
     des décisions locales qui les concernent. Ils visent à favoriser une citoyenneté active au plus près du lieu de vie ou 
@@ -48,7 +48,7 @@ démocratie locale, la mise en place de six Conseils de quartier :
   <p>Le Conseil de quartier est créé par délibération du Conseil d’arrondissement. Il est mis en place par le Conseil d’arrondissement, 
     jusqu'à la date de son renouvellement selon les modalités prévues à l'article 9.</p>
   <h3>Article 3 : Rôle des Conseils de quartier</h3>
-  <p>Le Conseil de quartier est un lieu :
+  <p>Le Conseil de quartier est un lieu :</p>
       <ul>
           <li>d'information, de consultation et de concertation sur les orientations, les projets, les
 décisions de la municipalité concernant le quartier ou ayant une incidence sur son
@@ -63,7 +63,7 @@ concernant le quartier, quelle que soit l’origine de la proposition ;</li>
           <li>de dialogue entre les différents acteurs du quartier, quelles que soient leurs origines
 et leurs opinions.</li>
       </ul>
-    </p>
+    
   <h3>Article 4 : Compétences particulières des Conseils de quartier</h3>
   <p>Les Conseils de quartier sont libres de définir les thèmes de travail qu’ils souhaitent engager. Toutefois des référents 
     volontaires sont demandés sur six thématiques d’intérêt local. (voir art.14)</p>
@@ -112,7 +112,7 @@ et leurs opinions.</li>
   <h3>Article 11 : Comité d’animation</h3>
   <p>Un « comité d’animation » de dix personnes est tiré au sort parmi les conseillers, sur candidature, lors de la première plénière. 
     La parité devra être respectée, sauf impossibilité.</p>
-  <p>Le rôle du comité d’animation consiste à :
+  <p>Le rôle du comité d’animation consiste à :  </p>
     <ul>
       <li>Animer la vie du Conseil de quartier</li>
       <li>Établir l’agenda annuel des réunions des conseillers et des plénières</li>
@@ -121,7 +121,7 @@ et leurs opinions.</li>
       <li>Gérer à tour de rôle le secrétariat de séance des membres du comité d’animation</li>
       <li>Être un lien permanent avec les Coordinateurs des Conseils de quartier (CCQ)</li>
     </ul>
-  </p>
+
   <h3>Article 12 : Réunion des conseillers</h3>
   <p>Une « réunion des conseillers » invitant les 60 personnes tirées au sort doit précéder une plénière de 15 jours au moins. 
     Cette « réunion des conseillers » est chargée d’établir l’ordre du jour et la préparation de la réunion plénière suivante. 
@@ -143,8 +143,8 @@ et leurs opinions.</li>
   <p>Chaque Conseil doit disposer au minimum de 6 conseillers référents tirés au sort parmi les volontaires. Ils seront des 
     relais d’information et apporteront leur réflexion et leurs propositions, et/ou organiseront des événements ou des actions 
     de sensibilisation/communication sur ces sujets. </p>
-  <p>Ils sont chargés de travailler particulièrement sur les thèmes suivants :
-    <ol>
+  <p>Ils sont chargés de travailler particulièrement sur les thèmes suivants : </p>
+    <ul>
       <li>Propreté, afin de travailler en relation avec l’élu en charge et les services pour établir une cartographie des problèmes chroniques dans le 
         quartier. Il proposera des interventions et sensibilisera la population à ce sujet.</li>
       <li>Budget participatif, afin d’impulser des projets et suivre leur mise en œuvre.</li>
@@ -158,8 +158,8 @@ et leurs opinions.</li>
         habitants sur l’avancée de la mise en place de cet événement international. Il pourra organiser des rencontres avec les 
         sportifs ou les organisateurs. Il contribuera à une meilleure implication des habitants dans cet événement unique du 
         siècle pour construire l’héritage des JO.</li>
-    </ol>
-  </p>
+    </ul>
+ 
   <p>Chaque référent pourra organiser son travail en créant une commission. (voir art.19)</p>
   <h3>Article 15 : L’adjoint de quartier</h3> 
   <p>Le Conseil d’arrondissement désigne en début de mandature six adjoints chargés chacun d’un quartier.</p>
@@ -218,12 +218,12 @@ et leurs opinions.</li>
     Ce rapport pourra revêtir diverses formes : fichier, diaporama, vidéo, etc.</p>
   <h3>Article 25 : Observatoire de la démocratie participative du 14e arrondissement</h3>
   <p>Un Observatoire de la démocratie participative du 14ème arrondissement est institué pour une durée équivalente à celle du mandat des Conseils de quartier. 
-    Il est composé de treize membres :
+    Il est composé de treize membres :</p>
     <ul>
       <li>6 membres : 1 référent Démocratie Locale par Conseil de Quartier</li>
       <li>7 personnalités qualifiées désignées par le Maire.</li>
     </ul>
-    </p>
+    
   <p>Le Maire d’arrondissement désigne le président.</p>
   <p>L’Observatoire rédige chaque année un rapport, faisant part des principaux acquis et problèmes constatés et proposant des suggestions d’amélioration 
     du fonctionnement 7 des Conseils de quartier, du budget participatif local et de tous sujets concernant la démocratie 

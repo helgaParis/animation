@@ -49,11 +49,11 @@ export default function Nav1urban() {
                 <Link href="/urban/cr2">
                 <a title="Compte Rendu du 17 janvier 2019" >17/1/19</a>
                 </Link>
-                <li>
+            </li>
+            <li>
                 <Link href="/urban/cr1">
                 <a title="Compte Rendu du 18 décembre 2018" >18/12/18</a>
                 </Link>
-            </li>
             </li>
             </ul>
         </div>

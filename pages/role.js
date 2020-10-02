@@ -23,7 +23,7 @@ export default function Role() {
                 d’échange et de dialogue entre les citoyens du quartier, mais aussi un lieu d’initiatives et de projets sur toutes les thématiques 
                 liées à la vie du quartier.
             </p>
-            <p>Il existe aujourd’hui 124 conseils de quartier à Paris dont 6 conseils de quartier dans le 14e arrondissement :
+            <p>Il existe aujourd’hui 124 conseils de quartier à Paris dont 6 conseils de quartier dans le 14e arrondissement :</p>
                 <ul>
                     <li>Didot - Plaisance - Porte de Vanves</li>
                     <li className={utilStyles.boldText}>Jean Moulin - Porte d’Orléans</li>
@@ -31,7 +31,7 @@ export default function Role() {
                     <li>Montparnasse - Raspail</li>
                     <li>Mouton Duvernet</li>
                     <li>Pernety</li>
-                </ul></p>
+                </ul>
                      
             <div className={stylesPlan.row}>                
                 <div className={stylesPlan.column}>
@@ -41,12 +41,11 @@ export default function Role() {
                             le conseil de quartier, à l’instar des élus locaux, a le pouvoir de formuler un voeu auprès 
                             du maire de l’arrondissement. Si le voeu est inscrit à l’ordre du jour du conseil 
                             d’arrondissement, il sera alors examiné, débattu, puis soumis aux votes des conseillers 
-                            d’arrondissement, qui pourront l’adopter - en totalité ou partiellement - ou le rejeter. 
+                            d’arrondissement, qui pourront l’adopter - en totalité ou partiellement - ou le rejeter. </p>
                         <p>En 2018, le conseil de quartier Montparnasse-Raspail a par exemple formulé un voeu pour 
                             la création d’un espace dédié aux activités artistiques et culturelles au rez-de-chaussée 
                             du futur immeuble à l’angle des rues Gaîté et Jolivet (source compte-rendu du conseil d’arrondissement 
                             du 6 novembre 2018)</p>
-                        </p>
                     </div>
                 </div>
                 <div className={stylesPlan.columnright}>
@@ -54,7 +53,7 @@ export default function Role() {
                     <p>Les missions du conseil de quartier Jean Moulin - Porte d’Orléans sont définies par 
                         la mairie du 14e arrondissement dans la charte des conseils de quartier du 14e. 
                     </p>
-                    <p>A ce titre, le conseil de quartier est à la fois un lieu :
+                    <p>A ce titre, le conseil de quartier est à la fois un lieu :  </p>
                         <ul>
                             <li>d’information, de consultation et de concertation sur les orientations, 
                                 les projets et les décisions de la municipalité concernant le quartier.
@@ -72,7 +71,7 @@ export default function Role() {
                                 origines et leurs opinions.
                             </li>
                         </ul>
-                </p></div>
+              </div>
                     
             </div>
         </main>

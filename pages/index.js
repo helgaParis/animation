@@ -15,8 +15,8 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
-            <h1 className={styles.title}>Conseil de quartier Jean Moulin Porte d’Orléans (JMPO)</h1>
-           <h2>Plénière le 6 octobre 2020 à 19h</h2>
+            <h1 className={styles.title}>Plénière le 6 octobre 2020 à 19h</h1>
+           <h2></h2>
             <p>Vous pouvez nous envoyer vos propositions concernant l'ordre du jour de la plénière et 
                 autres voeux via ce site : </p>
                 <ul>
