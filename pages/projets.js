@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import styles from '../styles/Home.module.css'
 import utilStyles from '../styles/layout.module.css'
+const email='conseil14@asf-web.fr'
 
 export default function Climat() {
     return (
@@ -18,7 +19,8 @@ export default function Climat() {
             <li>La communication</li>
           
             <li>... etc</li>
-            <p>Contactez-nous pour participer:   lien à faire</p> 
+            <p>Contactez-nous pour participer:   {" "}
+            <a href={`mailto:${email}?subject=Plenière du Conseil du Quartier JM PO&body= Mes Propositions :`}>propositions par email</a></p>
         </div>
         
   
