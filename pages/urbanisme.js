@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import styles from '../styles/Home.module.css'
-import Nav1urban from '../components/nav1urban'
-import Nav2urban from '../components/nav2urban'
+import Part1urban from '../components/part1urban'
+import Part2urban from '../components/part2urban'
 
 
 export default function Urbanisme() {
@@ -27,10 +27,10 @@ export default function Urbanisme() {
             Elle est également à l'écoute des habitants et peut faire remonter des propositions sur d'autres sujets.
             </p>
             <h2> Quelques projets sur lesquelles nous trravaillons</h2>
-          <Nav2urban></Nav2urban>
+          <Part2urban></Part2urban>
 
             <h2>Les comptes rendus de nos réunions</h2>
-           <Nav1urban></Nav1urban>
+           <Part1urban></Part1urban>
             </main>
             </Layout>
     )

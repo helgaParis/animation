@@ -27,7 +27,6 @@ export default function Home() {
                     <h3>Plénière du Conseil de quartier : le 6 octobre 2020 à 19h en visio-conférence</h3>
                     <p>Lien zoom : {""}
                     <a href="https://zoom.us/j/97306443824?pwd=YW5YTHJtNDFnOE5LYzdYeDlRUitsdz09"  rel="noopener" target="_blank" >Participer à la réunion </a>
-                                </Link>
                                 </p>
                     </div>
                     <div className={styles.encadre}>
@@ -48,8 +47,8 @@ export default function Home() {
                 <div className={stylesPlan.columnright}>
                     <img src="/plan14e.jpg" className={stylesPlan.plan14} alt="Plan des six quartiers du 14e arrondissemnt de Paris" ></img>
                     
-                    <h4>Le Conseil de quartier « Jean Moulin – Porte d’Orléans » couvre le territoire : </h4>
-                    <p>boulevard Romain Rolland, 
+                    <h4 className={stylesPlan.fondjauneplan}>Le Conseil de quartier « Jean Moulin – Porte d’Orléans » couvre le territoire : </h4>
+                    <p >Boulevard Romain Rolland, 
                         rue du Professeur H. Vincent côté pair, rue Emile Faguet côté pair, 86 à 160 rue de la Tombe Issoire, 
                         39 à 85 rue d’Alésia, côté impair de la rue des Plantes (dans sa partie comprise entre la rue d’Alésia 
                         et le boulevard Brune) et toutes les rues à l’intérieur de cette délimitation.

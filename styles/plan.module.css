@@ -18,3 +18,15 @@
     flex:50%;
     padding-left:2%;
 }
+.column1x {
+    flex: 25%;
+    min-width: 25%;
+    align-self: center;
+    padding-right:2%;
+}
+.colum3x{
+    flex:73%;
+}
+.fondjauneplan{
+    background-color: #eabe4247;
+}

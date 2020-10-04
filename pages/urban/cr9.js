@@ -11,7 +11,8 @@ export default function cr9() {
         </Head>
         <main className={styles.main}>
             <Nav1urban></Nav1urban>
-            <h1 className={styles.title}>Compte rendu de la réunion du 30 janvier 2020</h1>
+            <h1 className={styles.title}>Rencontre du 30 janvier 2020 avec l’APUR
+</h1>
             <p>Présents :</p>
             <p>APUR : Paul Baroin, directeur d’études</p>
             <p>Mairie 14 : Jérôme Perrot, Chargé urbanisme cabinet de la maire</p>

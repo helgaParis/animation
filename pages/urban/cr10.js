@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../../components/layout'
 import styles from '../../styles/Home.module.css'
 import Nav1urban from '../../components/nav1urban'
+import Link from 'next/link'
 
 export default function cr10() {
     return (
@@ -36,8 +37,16 @@ export default function cr10() {
            <p> Pour ceux qui ne connaissent pas le projet, voir en pièce jointe l’interview du président des HyperVoisins.</p>
            <h3>Divers</h3>
            <p>La commission souhaiterait disposer (via la mairie ?) d’un fond de plan du quartier en grand format. Cela permettrait, en l’affichant au mur, de visualiser rapidement tel ou tel sujet en discussion.</p>
-           <p>PJ : 1) Note de la commission en date du 10 12 2019 sur le projet d’aménagement de la Porte d’Orléans (APUR) </p>
-            <p>2) Interview Patrick Bernard</p>
+           <h4>Voir également : </h4>
+          <p> 1) Note de la commission en date du 10 12 2019 sur le  {""}
+          <Link href="./urban/p1">
+          <a title="Projet Porte d'Orléans" >projet  d’aménagement</a>
+          </Link> de la Porte d’Orléans (APUR) </p>
+            <p>2) {""}
+            <Link href="/urban/p2">
+            <a title="Interview Patrick Bernard" >Interview Patrick Bernard</a>
+            </Link>
+            </p>
         </main>
         </Layout>
     )
