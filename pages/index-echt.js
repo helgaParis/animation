@@ -25,7 +25,10 @@ export default function Home() {
                     <div className={styles.encadrebleu}>
                     <h2>Agenda</h2>
                     <h3>Plénière du Conseil de quartier : le 6 octobre 2020 à 19h en visio-conférence</h3>
-                    <p>Lien zoom : à suivre</p>
+                    <p>Lien zoom : {""}
+                    <a href="https://zoom.us/j/97306443824?pwd=YW5YTHJtNDFnOE5LYzdYeDlRUitsdz09"  rel="noopener" target="_blank" >Participer à la réunion </a>
+                                </Link>
+                                </p>
                     </div>
                     <div className={styles.encadre}>
                         <h2>Dernières Nouvelles</h2>
@@ -34,7 +37,7 @@ export default function Home() {
                         <p>Ce site est le projet de confinement de plusieurs membres du comitée d'animation. C'est un travail en progrès et nous ajouterons du contenu sur les pages d'information au cours des prochaines semaines. <br/> La page Actualités annoncera les évenements en forme de blog.</p>
                         <p>N'hésitez pas à nous faire part de vos {""}
                         <Link href="/contribuer">
-                                    <a title="Formulaire de contact" >propositions </a>
+                                    <a title="Page de contributions" >propositions </a>
                                     </Link>
                         
                         et de nous informer de vos événements dans le quartier.</p>
