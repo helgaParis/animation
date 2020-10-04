@@ -63,6 +63,11 @@ export default function Layout({ children}) {
                                     </Link>
                                 </li>
                                 <li>
+                                    <Link href="/comite">
+                                    <a title="Le Comité d'Animation" >Animation</a>
+                                    </Link> 
+                                </li>
+                                <li>
                                     <Link href="/budget">
                                     <a title="Le budget du Conseil de Quartier" >Budget</a>
                                     </Link>
@@ -104,11 +109,6 @@ export default function Layout({ children}) {
                                     <Link href="/commissions">
                                     <a title="Les Commissions actives">Commissions</a>
                                     </Link>
-                                </li>
-                                <li>
-                                    <Link href="/comite">
-                                    <a title="Le Comité d'Animation" >Animation</a>
-                                    </Link> 
                                 </li>
                                 <li >
                                     <Link href="/climat">

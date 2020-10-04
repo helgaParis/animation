@@ -7,12 +7,12 @@ export default function Part2urban() {
             <ul>
                 <li>
                     <Link href="/urban/p1">
-                    <a title="Projet" >Projet</a>
+                    <a title="Projet Porte d'Orléans" >Projet Porte d'Orléans</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/urban/p2">
-                    <a title="Interview" >Interview</a>
+                    <a title="Interview Patrick Bernard" >Interview Patrick Bernard</a>
                     </Link>
                 </li>
             </ul>
