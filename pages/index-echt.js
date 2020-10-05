@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import styles from '../styles/Home.module.css'
 import stylesPlan from '../styles/plan.module.css'
-
 import Link from 'next/link'
 
 

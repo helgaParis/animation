@@ -4,7 +4,7 @@ import styles from '../../styles/Home.module.css'
 
 import Nav1urban from '../../components/nav1urban'
 
-export default function cr1() {
+export default function Cr1() {
     return (
         <Layout >
         <Head>

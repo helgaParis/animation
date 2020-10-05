@@ -3,7 +3,7 @@ import Layout, { siteTitle } from '../../components/layout'
 import styles from '../../styles/Home.module.css'
 import Nav1urban from '../../components/nav1urban'
 
-export default function cr4() {
+export default function Cr4() {
     return (
         <Layout >
         <Head>

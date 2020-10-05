@@ -4,7 +4,7 @@ import styles from '../../styles/Home.module.css'
 import Nav1urban from '../../components/nav1urban'
 import Link from 'next/link'
 
-export default function cr10() {
+export default function Cr10() {
     return (
         <Layout >
         <Head>

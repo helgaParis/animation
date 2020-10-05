@@ -12,8 +12,7 @@ export default function Blog() {
         <main className={styles.main}>
         
         <h1 className={styles.title}>Les Actualités</h1>
-        <p>Ici vous trouverez les dernières nouvelles du conseil de quartier et des commissios ...</p>
-        <p>Ce chapitre apparaîtra en forme de blog dans une prochaine étape.</p>
+        <p>Retrouvez sur cette page les dernières nouvelles du conseil de quartier Jean Moulin - Porte d’Orléans et de l’ensemble de ses commissions.</p>
       </main>
       </Layout>
     )
