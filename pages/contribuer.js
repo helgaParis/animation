@@ -17,7 +17,7 @@ export default function Contribuer() {
         
         <h1 className={styles.title}>Participer au travail du Conseil de Quartier</h1>
         <p>Vous pouvez nous envoyer vos propositons ou vous inscrire sur notre liste de communication</p>
-        <h4><a href={`mailto:${email}?subject=Contributions - Conseil du Quartier JM PO&body=Ma contribution : `}>Email : conseil14@asf-web.fr</a></h4>
+        <h4><a href={`mailto:${email}?subject=Contributions - Conseil de Quartier JM PO&body=Ma contribution : `}>Email : conseil14@asf-web.fr</a></h4>
         <p>Si le lien n'ouvre pas votre messagerie, vous pouvez copier l'adresse mail : conseil14@asf-web.fr</p>
       
       </main>

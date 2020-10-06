@@ -25,7 +25,7 @@ export default function Climat() {
             <h3>Nous vous invitons à participer à cette commission </h3>
             <p>Réunions  tous les derniers mercredi de chaque mois .</p>
             <h3>Nous vous invitons également à nous communiquer {""}
-            <a href={`mailto:${email}?subject=Commission de Climat&body= Mes Propositions :`}>vos propositions par email.</a>    
+            <a href={`mailto:${email}?subject=Commission Climat Conseil de Quartier JMPO&body= Mes Propositions :`}>vos propositions par email.</a>    
              </h3>
 </div>        
        <div className={flowerStyles.containeranim}>    

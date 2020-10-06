@@ -20,7 +20,7 @@ export default function Climat() {
           
             <li>... etc</li>
             <p>Contactez-nous pour participer:   {" "}
-            <a href={`mailto:${email}?subject=Plenière du Conseil du Quartier JM PO&body= Mes Propositions :`}>propositions par email</a></p>
+            <a href={`mailto:${email}?subject=Plenière du Conseil de Quartier JM PO&body= Mes Propositions :`}>propositions par email</a></p>
         </div>
         
   

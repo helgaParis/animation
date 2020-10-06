@@ -21,7 +21,7 @@ export default function Home() {
                 autres voeux via ce site : </p>
                 <ul>
                     <li> <p>Envoyer des {" "}
-                    <a href={`mailto:${email}?subject=Plenière du Conseil du Quartier JM PO&body= Mes Propositions :`}>propositions par email</a></p>
+                    <a href={`mailto:${email}?subject=Plenière du Conseil de Quartier JM PO&body= Mes Propositions :`}>propositions par email</a></p>
                     </li>
                     <li>Si le lien n'ouvre pas votre messagerie, vous pouvez copier l'adresse mail : conseil14@asf-web.fr</li>
                 </ul>
