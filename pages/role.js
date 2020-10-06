@@ -8,7 +8,7 @@ export default function Role() {
   return (
     <Layout >
         <Head>
-            <title>Paris 14e - Conseil de Quartier Jean Moulin Porte d'Orléans</title>
+            <title>Rôle du Conseil de Quartier</title>
             <meta
                 name="keywords"
                 content="Accueil, conseil de quartier, democratie participative, democratie de proximité, contribuer, vie de quartier"

@@ -11,7 +11,7 @@ export default function Contribuer() {
     return (
         <Layout >
         <Head>
-          <title>{siteTitle}</title>
+          <title>Contribuer - {siteTitle}</title>
         </Head>
         <main className={styles.main}>
         

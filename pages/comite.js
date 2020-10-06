@@ -8,7 +8,7 @@ export default function Commite() {
     return (
     <Layout >
       <Head>
-        <title>{siteTitle} - Comitée</title>
+        <title>Comitée - {siteTitle} </title>
       </Head>
       <main className={styles.main}>
         

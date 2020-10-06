@@ -8,7 +8,7 @@ export default function Communication() {
     return (
         <Layout >
         <Head>
-          <title>{siteTitle}</title>
+          <title>Communication - {siteTitle}</title>
         </Head>
         <main className={styles.main}>
         <div className={utilStyles.textgauche}>

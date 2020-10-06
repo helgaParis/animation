@@ -7,7 +7,7 @@ export default function Poincon() {
     return (
         <Layout >
         <Head>
-          <title>{siteTitle}</title>
+          <title>Poinçon - {siteTitle}</title>
         </Head>
         <main className={styles.main}>
         <div className={utilStyles.textgauche}>

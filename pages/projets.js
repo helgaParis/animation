@@ -8,7 +8,7 @@ export default function Climat() {
     return (
         <Layout >
         <Head>
-          <title>{siteTitle}</title>
+          <title>Projets - {siteTitle}</title>
         </Head>
         <main className={styles.main}>
         <div className={utilStyles.textgauche}>

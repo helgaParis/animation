@@ -8,7 +8,7 @@ export default function Charte() {
     return (
         <Layout >
         <Head>
-          <title>{siteTitle}</title>
+          <title>Charte - {siteTitle}</title>
         </Head>
         <main className={styles.main}>
         

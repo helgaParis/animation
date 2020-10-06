@@ -7,7 +7,7 @@ export default function Blog() {
     return (
         <Layout >
         <Head>
-          <title>{siteTitle}</title>
+          <title>Actualités - {siteTitle}</title>
         </Head>
         <main className={styles.main}>
         

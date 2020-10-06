@@ -8,7 +8,7 @@ export default function Conseillers() {
     return (
     <Layout >
       <Head>
-        <title>{siteTitle} - Conseillers</title>
+        <title>Conseillers - {siteTitle}</title>
       </Head>
       <main className={styles.main}>
         

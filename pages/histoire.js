@@ -6,7 +6,7 @@ export default function Histoire() {
     return (
         <Layout >
         <Head>
-          <title>{siteTitle}</title>
+          <title>Histoire - {siteTitle}</title>
         </Head>
         <main className={styles.main}>
         

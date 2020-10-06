@@ -8,7 +8,7 @@ export default function Mentions() {
     return (
         <Layout >
         <Head>
-          <title>Mentions légales</title>
+          <title>Mentions légales - {siteTitle}</title>
           <meta
           name="keywords"
           content="Mentions légales, hébergement, rédaction, domain, contact"

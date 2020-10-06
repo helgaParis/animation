@@ -6,7 +6,7 @@ export default function Budget() {
     return (
         <Layout >
         <Head>
-          <title>{siteTitle}</title>
+          <title>Budget - {siteTitle}</title>
         </Head>
         <main className={styles.main}>
         

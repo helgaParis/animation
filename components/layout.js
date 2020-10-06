@@ -158,7 +158,7 @@ export default function Layout({ children}) {
                 </div>
               
                 <h1 className={utilStyles.headingLg}>Conseil de Quartier 
-                <span  className={styles.big} >JM PO, Paris 14</span>
+                <span  className={styles.big} >Jean Moulin Porte d'Orléans</span>
                 </h1>    
             </header>
 

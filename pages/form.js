@@ -18,11 +18,38 @@ function Form() {
       }
 
     function handleSubmit(evt) {
-        event.preventDefault();
+        evt.preventDefault();
         console.log('ici il devrait avoir le resultat: '+
          state.firstName + '  ' + state.lastName + '  ' + state.email+ '  ' + state.contacter+ '  ' + state.contribution
         );
       }
+
+/*  
+https://github.com/hoangvvo/nextjs-mongodb-app/tree/master/components
+async function hanldeSubmit(evt) {
+    evt.preventDefault();
+    const body = {
+      content: evt.currentTarget.content.value,
+    };
+    if (!evt.currentTarget.content.value) return;
+    evt.currentTarget.content.value = '';
+    const res = await fetch('/api/posts', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    if (res.ok) {
+      setMsg('Posted!');
+      setTimeout(() => setMsg(null), 5000);
+    }
+  }
+  */
+
+
+
+
+
+
 
       return (
 
