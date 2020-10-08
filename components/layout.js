@@ -8,8 +8,10 @@ export const siteTitle = "Paris 14e - Conseil du Quartier Jean Moulin Porte d'Or
 
 export default function Layout({ children}) {
     return (
+        
         <div className={styles.container}>
             <Head>         
+           
                 <meta 
                 name="viewport" 
                 content="width=device-width, initial-scale=1.0"
