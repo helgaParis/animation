@@ -30,7 +30,7 @@ export default function Role() {
                     <li>Montsouris - Dareau</li>
                     <li>Montparnasse - Raspail</li>
                     <li>Mouton Duvernet</li>
-                    <li>Pernety</li>
+                    <li>Pernety </li>
                 </ul>
                      
             <div className={stylesPlan.row}>                
