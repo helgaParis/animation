@@ -33,6 +33,7 @@ async function connectToDatabase(uri) {
   return db
 }
 
+
 // The main, exported, function of the endpoint,
 // dealing with the request and subsequent response
 module.exports = async (req, res) => {
