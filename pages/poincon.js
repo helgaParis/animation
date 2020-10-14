@@ -11,7 +11,7 @@ export default function Poincon() {
         </Head>
         <main className={styles.main}>
         <div className={utilStyles.textgauche}>
-            <h1 className={styles.main} >Poinçon</h1>
+            <h1 className={styles.title} >Poinçon</h1>
           
             <p>à suivre : les infos sur le Poinçon, l'ancienne petite gare de la petite ceinture</p> 
         </div>

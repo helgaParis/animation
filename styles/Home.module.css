@@ -86,7 +86,7 @@
     padding-right:  1.5rem;
 }
 .big{
-  display: block;
+  display: inline-block;
 }
 .small,.smalldistance{
   display: none;
@@ -152,7 +152,38 @@
     font-size: 0.8rem;
   }
 
+/*  Different text and title styles*/
+.sitetitle{
+  font-size: 1.4em;
+  background-color: ghostwhite;
+  white-space:nowrap;
+}
+.title{
+  font-size: 1.4em;
+  /* background-color: yellow; */
+}
+.subtitle{
+  font-size: 1.2em;
+  /* background-color: #ffccaa; */
+}
+.subsubtitle{
+  font-size: 1.1em;
+  font-weight: 600;
+  /* background-color: #aaccff; */
+}
+.blogtitle{
+  font-size: 1.2em;
+  /* background-color: yellow; */
+}
+.blogtext{
+  font-size: 1em;
+}
+.bloginfos{
+  font-size: 0.8em;
+  background-color: #c8edff9e;
+}
 
+/*  Responsive styles */
   @media (max-width: 600px) {
     .header a {
          padding:0.2rem;
@@ -164,6 +195,7 @@
       }
       .big{
         display: none;
+       white-space:nowrap;
       }
       .small{
         display: block;

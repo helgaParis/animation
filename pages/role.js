@@ -16,7 +16,7 @@ export default function Role() {
         </Head>
 
         <main className={styles.main}>
-            <h2>Qu’est-ce qu’un conseil de quartier ?</h2>
+            <h2 className={styles.subtitle}>Qu’est-ce qu’un conseil de quartier ?</h2>
             <p>Le conseil de quartier est une instance consultative du conseil d’arrondissement, politiquement neutre, 
                 qui regroupe des habitants du quartier désireux de s’investir dans la vie de leur quartier et d’oeuvrer à 
                 l’amélioration et au dynamisme de leur environnement local. C’est à la fois un lieu d’information, 
@@ -36,7 +36,7 @@ export default function Role() {
             <div className={stylesPlan.row}>                
                 <div className={stylesPlan.column}>
                     <div className={styles.encadre}>
-                        <h3>Le saviez-vous ?</h3>
+                        <h3 className={styles.subsubtitle}>Le saviez-vous ?</h3>
                         <p>Lorsqu’il souhaite porter à l’attention de la mairie un sujet particulier d’intérêt local, 
                             le conseil de quartier, à l’instar des élus locaux, a le pouvoir de formuler un voeu auprès 
                             du maire de l’arrondissement. Si le voeu est inscrit à l’ordre du jour du conseil 
@@ -49,7 +49,7 @@ export default function Role() {
                     </div>
                 </div>
                 <div className={stylesPlan.columnright}>
-                <h2>Quel est le rôle du conseil de quartier ?</h2>
+                <h2 className={styles.subtitle}>Quel est le rôle du conseil de quartier ?</h2>
                     <p>Les missions du conseil de quartier Jean Moulin - Porte d’Orléans sont définies par 
                         la mairie du 14e arrondissement dans la charte des conseils de quartier du 14e. 
                     </p>

@@ -19,10 +19,11 @@ export default function Commite() {
             
         <a href="https://www.mairie14.paris.fr/vie-citoyenne/les-conseils-de-quartier/le-conseil-de-quartier-jean-moulin-porte-d-orleans-226" rel="noopener" target="_blank"> Page de la mairie: Les membres des commitées d'animation </a> 
         </p>
-        <h2>Les comptes rendus de nos réunions</h2>
+        <nav  aria-label="navigation liste des comptes-rendus du comité">
+        <h2 className={styles.subtitle} id="navigation-comptes-rendus-anim">Les comptes rendus de nos réunions</h2>
         <p>Liste pas complète</p>
              <Menu1></Menu1>
-         
+         </nav>
         </main>
     </Layout>
      

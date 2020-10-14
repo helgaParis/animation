@@ -159,9 +159,7 @@ export default function Layout({ children}) {
                     </ul>
                 </div>
               
-                <h1 className={utilStyles.headingLg}>Conseil de Quartier 
-                <span  className={styles.big} >Jean Moulin Porte d'Orléans</span>
-                </h1>    
+                <h2 className={styles.sitetitle}>Conseil de Quartier  <span  className={styles.big}>Jean Moulin Porte d'Orléans</span>  </h2>    
             </header>
 
             <main>{children}</main>

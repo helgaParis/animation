@@ -18,10 +18,10 @@ export default function Conseillers() {
         <p>Toute personne de plus de 16 ans qui habite, étudie, travaille ou exerce une activité associative dans le 14e arrondissement peut devenir conseiller de quartier, à condition de ne pas déjà faire partie d’un autre conseil de quartier. Il n’existe aucun autre pré-requis pour être candidat, si ce n’est l’envie de s’impliquer dans la vie de son quartier.
         </p>
         <div className={styles.encadre}>
-        <h3>Si je ne suis pas conseiller de quartier, puis-je quand même m’investir dans le conseil de quartier ?</h3>
+        <h3 className={styles.subsubtitle}>Si je ne suis pas conseiller de quartier, puis-je quand même m’investir dans le conseil de quartier ?</h3>
         <p>Parfaitement ! Le conseil de quartier est ouvert à tout le monde. Si vous n’avez pas eu l’occasion de vous porter candidat au dernier tirage au sort ou si vous n’avez pas été tiré au sort, rien ne vous empêche de vous investir dans le conseil de quartier. Au contraire ! Que vous souhaitiez porter un projet précis, présenter une idée, faire part d’un problème local, ou simplement vous tenir informé des débats qui animent le quartier, les portes du conseil de quartier vous sont grandes ouvertes.</p>
         </div>
-        <h3>Liste des conseillers de quartier Jean Moulin - Porte d’Orléans pour la période 2018-2021</h3>
+        <h3 className={styles.subtitle}>Liste des conseillers de quartier Jean Moulin - Porte d’Orléans pour la période 2018-2021</h3>
         <p> (à actualiser car pas à jour)</p>
         <p>Lynda ABA 
        ,  Djamila ABDI

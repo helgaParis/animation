@@ -18,7 +18,7 @@ export default function Commissions() {
             Les citoyens sont invités à se joindre à une ou plusieurs commissions et contribuer aux discussions et au travail.
             Des nouvelles commissions peuvent être créés, si plusieurs citoyens souhaitent se saisir d'un thème. 
         </p>
-        <h2>Fonctionnement des commissions</h2>
+        <h2 className={styles.subtitle}>Fonctionnement des commissions</h2>
         <p>Chaque commission est plutôt libre de définir son mode de fonctionnement. </p>
         <p>Une commission choisit son réferent auprès du comitée d'animation, qui communique avec le comitée.</p>
         <p>Avant les réunions plénières, les referents sont invités à participer à la réunion du comitée d'animation, qui prépare la Plenière.</p>

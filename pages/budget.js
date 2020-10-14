@@ -15,7 +15,7 @@ export default function Budget() {
             en oeuvre de ses actions, dont le montant est fixé par la ville de Paris. Ce budget est le même pour 
             chaque conseil de quartier parisien. Il se compose d’un budget de fonctionnement et d’un budget d’investissement. 
             Au total, ce sont 11 569 euros qui sont attribués chaque année au conseil de quartier.</p>
-        <h2 className={styles.title}>Le budget de fonctionnement</h2>
+        <h2 className={styles.subtitle}>Le budget de fonctionnement</h2>
         <p>Comme son nom l’indique, le budget de fonctionnement est dédié à l’organisation au quotidien et à la bonne
              marche du conseil de quartier. Son montant annuel est de 3 305 euros. Chaque dépense est soumise à un vote
              à la majorité simple des conseillers présents en réunion des conseillers. Ce budget permet au conseil de quartier
@@ -28,7 +28,7 @@ export default function Budget() {
                  <li>la location de matériel (chaises, tables, sonorisation…)</li>
                  <li>l’alimentation et les boissons pour un repas ou une fête de quartier</li>
              </ul>
-        <h2 className={styles.title}>Le budget d’investissement</h2>
+        <h2 className={styles.subtitle}>Le budget d’investissement</h2>
         <p>Le budget d’investissement permet quant à lui de financer des projets d’intérêt général dans le quartier 
             permettant d’améliorer l’espace public et le cadre de vie. Il peut s’agir par exemple de financer des travaux 
             ou des aménagements sur la voirie et dans les espaces verts comme l’installation de mobilier urbain (bancs, boîtes

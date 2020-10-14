@@ -12,7 +12,7 @@ export default function Climat() {
         </Head>
         <main className={styles.main}>
         <div className={utilStyles.textgauche}>
-            <h1 className={styles.main} >La commission Climat</h1>
+            <h1 className={styles.title} >La commission Climat</h1>
             <p>La commission a pour but de proposer des projets visant à améliorer la qualité de vie pour les habitants du quartier et envisager également un nouvel aménagement de la porte d'Orleans en concertation avec les habitants.</p>
             <p>
             Il s'agit entre autres de travailler sur : </p>
@@ -22,9 +22,9 @@ export default function Climat() {
               <li>sur le recyclage des déchets alimentaires (installation de composts)</li>
               <li>etc...</li>
               </ul>
-            <h3>Nous vous invitons à participer à cette commission </h3>
+            <h3 className={styles.subsubtitle}>Nous vous invitons à participer à cette commission </h3>
             <p>Réunions  tous les derniers mercredi de chaque mois .</p>
-            <h3>Nous vous invitons également à nous communiquer {""}
+            <h3 className={styles.subsubtitle}>Nous vous invitons également à nous communiquer {""}
             <a href={`mailto:${email}?subject=Commission Climat Conseil de Quartier JMPO&body= Mes Propositions :`}>vos propositions par email.</a>    
              </h3>
 </div>        

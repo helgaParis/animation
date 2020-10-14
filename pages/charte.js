@@ -13,7 +13,6 @@ export default function Charte() {
         <main className={styles.main}>
         
         <h1 className={styles.title}>La charte des Conseils de Quartier</h1>
-        <p>Extraits :</p>
         <p>Le Conseil du 14ème arrondissement a décidé, dans le cadre du développement de la
 démocratie locale, la mise en place de six Conseils de quartier :</p>
             <ul>
@@ -39,15 +38,15 @@ démocratie locale, la mise en place de six Conseils de quartier :</p>
   <p>
     <a href="/charte.pdf" target="_blank">Voir toute la charte en pdf dans un nouveau onglet</a> 
   </p>
-  <h2>I. Rôle et compétences</h2>
-  <h3>Article 1 : Définition du Conseil de quartier</h3>
+  <h2 className={styles.subtitle}>I. Rôle et compétences</h2>
+  <h3 className={styles.subsubtitle}>Article 1 : Définition du Conseil de quartier</h3>
   <p>Le Conseil de quartier est une commission consultative du Conseil d’arrondissement, assurant la participation des habitants 
     à la vie de leur quartier et ayant faculté de proposition, de suggestion et d’initiative sur tous les aspects de la vie du 
     quartier. Il ne jouit pas de la personnalité morale et n'a pas de faculté décisionnaire.</p>
-  <h3>Article 2 : Création des Conseils de quartier</h3>
+  <h3 className={styles.subsubtitle}>Article 2 : Création des Conseils de quartier</h3>
   <p>Le Conseil de quartier est créé par délibération du Conseil d’arrondissement. Il est mis en place par le Conseil d’arrondissement, 
     jusqu'à la date de son renouvellement selon les modalités prévues à l'article 9.</p>
-  <h3>Article 3 : Rôle des Conseils de quartier</h3>
+  <h3 className={styles.subsubtitle}>Article 3 : Rôle des Conseils de quartier</h3>
   <p>Le Conseil de quartier est un lieu :</p>
       <ul>
           <li>d'information, de consultation et de concertation sur les orientations, les projets, les
@@ -64,10 +63,10 @@ concernant le quartier, quelle que soit l’origine de la proposition ;</li>
 et leurs opinions.</li>
       </ul>
     
-  <h3>Article 4 : Compétences particulières des Conseils de quartier</h3>
+  <h3 className={styles.subsubtitle}>Article 4 : Compétences particulières des Conseils de quartier</h3>
   <p>Les Conseils de quartier sont libres de définir les thèmes de travail qu’ils souhaitent engager. Toutefois des référents 
     volontaires sont demandés sur six thématiques d’intérêt local. (voir art.14)</p>
-  <h3>Article 5 : Pouvoir de proposition des Conseils de quartier</h3>
+  <h3 className={styles.subsubtitle}>Article 5 : Pouvoir de proposition des Conseils de quartier</h3>
   <p>Les Conseils de quartier disposent d’un pouvoir de proposition dans la définition des priorités d'investissements localisés 
     de la mairie d’arrondissement, concernant leur périmètre.</p>
   <p>Le Conseil de quartier peut adresser au Maire d’arrondissement des vœux. Ces vœux doivent être obligatoirement inscrits à 
@@ -83,23 +82,23 @@ et leurs opinions.</li>
     conformément au Règlement intérieur du Conseil de Paris.</p>
   <p>Une fois par semestre, le Maire d’arrondissement donne une information au Conseil d’arrondissement sur les suites données 
     aux vœux adoptés.</p>
-  <h3>Article 6 : Budget</h3>
+  <h3 className={styles.subsubtitle}>Article 6 : Budget</h3>
   <p>Chaque Conseil de quartier est composé de 60 membres tirés au sort parmi la liste des candidats qui, au titre de leur 
     résidence ou de leur activité professionnelle, associative ou étudiante, concourent à la vie du quartier.</p>
   <p>Aucune personne physique ne peut siéger dans plus d’un Conseil de quartier.</p>
   <p>La fonction de conseiller de quartier suppose une assiduité aux réunions. La parité femmes - hommes sera respectée.</p>
-  <h3>Article 7 : Délimitation territoriale de chaque conseil</h3>
+  <h3 className={styles.subsubtitle}>Article 7 : Délimitation territoriale de chaque conseil</h3>
   <p>La compétence territoriale du Conseil de quartier correspond aux limites indiquées en annexe de la présente charte.</p>
-  <h2>II. Composition, désignation et renouvellement</h2>
-  <h3>Article 8 : Composition des Conseils de quartier</h3>
+  <h2 className={styles.subtitle}>II. Composition, désignation et renouvellement</h2>
+  <h3 className={styles.subsubtitle}>Article 8 : Composition des Conseils de quartier</h3>
   <p>Chaque Conseil de quartier est composé de 60 membres tirés au sort parmi la liste des candidats qui, au titre de leur 
     résidence ou de leur activité professionnelle, associative ou étudiante, concourent à la vie du quartier.</p>
-  <h3>Article 9 : Durée</h3>
+  <h3 className={styles.subsubtitle}>Article 9 : Durée</h3>
   <p>Les conseillers de quartier sont tirés au sort pour un mandat de trois ans. Il est procédé tous les trois ans au renouvellement 
     général du Conseil de quartier, selon les modalités définies à l’article 8.</p>
   <p>Aucune personne physique ne peut siéger dans plus d’un Conseil de quartier.</p>
   <p>La fonction de conseiller de quartier suppose une assiduité aux réunions. La parité femmes - hommes sera respectée.</p>
-  <h3>Article 10 : Renouvellement en cours de mandat</h3>   
+  <h3 className={styles.subsubtitle}>Article 10 : Renouvellement en cours de mandat</h3>   
   <p>En cas de démission, de décès ou de carence d’un conseiller, il est procédé à la nomination d’un autre membre en plénière 
     publique par tirage au sort avec les seuls candidats présents ou excusés. La mairie informera tous les candidats n’ayant pas 
     été désignés au premier tirage au sort de cette nouvelle désignation, sa date et son lieu pour que les candidats puissent 
@@ -108,8 +107,8 @@ et leurs opinions.</li>
     « réunions des conseillers ».</p>     
   <p>En cas d’épuisement de la liste des candidats en cours de mandat, un nouvel appel à candidatures pourra être lancé à la demande 
     de l’adjoint du Maire en charge de la démocratie locale.</p> 
-  <h2>III. Fonctionnement interne</h2>
-  <h3>Article 11 : Comité d’animation</h3>
+  <h2 className={styles.subtitle}>III. Fonctionnement interne</h2>
+  <h3 className={styles.subsubtitle}>Article 11 : Comité d’animation</h3>
   <p>Un « comité d’animation » de dix personnes est tiré au sort parmi les conseillers, sur candidature, lors de la première plénière. 
     La parité devra être respectée, sauf impossibilité.</p>
   <p>Le rôle du comité d’animation consiste à :  </p>
@@ -122,7 +121,7 @@ et leurs opinions.</li>
       <li>Être un lien permanent avec les Coordinateurs des Conseils de quartier (CCQ)</li>
     </ul>
 
-  <h3>Article 12 : Réunion des conseillers</h3>
+  <h3 className={styles.subsubtitle}>Article 12 : Réunion des conseillers</h3>
   <p>Une « réunion des conseillers » invitant les 60 personnes tirées au sort doit précéder une plénière de 15 jours au moins. 
     Cette « réunion des conseillers » est chargée d’établir l’ordre du jour et la préparation de la réunion plénière suivante. 
     Celui-ci doit parvenir aux Coordinateurs des Conseils de quartier et à l’élu référent du quartier au 4 moins 10 jours avant 
@@ -133,13 +132,13 @@ et leurs opinions.</li>
     temps de parole pour les habitants.</p>
   <p>Le Maire d’arrondissement peut demander l’inscription d’un sujet, pour avis ou pour information du Conseil de quartier.</p>
   <p>Les 60 conseillers de quartier peuvent être convoqués en réunion exceptionnelle à la demande du Maire d’arrondissement.</p>
-  <h3>Article 13 : Modalités de vote</h3>
+  <h3 className={styles.subsubtitle}>Article 13 : Modalités de vote</h3>
   <p>Les dépenses de fonctionnement du Conseil font l’objet d’un vote à la majorité simple des présents en « réunion des conseillers ».</p>
   <p>Tout vote des Conseils de quartier sur les vœux ou sur les dépenses d’investissement, requiert la présence en séance plénière d’un 
     quorum minimum du tiers des conseillers, soit 20 membres.</p>
   <p>Lors des plénières, un vote consultatif pour recueillir l’avis du public peut être institué. Toutefois le public n’a pas de droit de vote formel, 
     celui-ci est réservé aux conseillers de quartier.</p>
-  <h3>Article 14 : Référents thématiques</h3> 
+  <h3 className={styles.subsubtitle}>Article 14 : Référents thématiques</h3> 
   <p>Chaque Conseil doit disposer au minimum de 6 conseillers référents tirés au sort parmi les volontaires. Ils seront des 
     relais d’information et apporteront leur réflexion et leurs propositions, et/ou organiseront des événements ou des actions 
     de sensibilisation/communication sur ces sujets. </p>
@@ -161,7 +160,7 @@ et leurs opinions.</li>
     </ul>
  
   <p>Chaque référent pourra organiser son travail en créant une commission. (voir art.19)</p>
-  <h3>Article 15 : L’adjoint de quartier</h3> 
+  <h3 className={styles.subsubtitle}>Article 15 : L’adjoint de quartier</h3> 
   <p>Le Conseil d’arrondissement désigne en début de mandature six adjoints chargés chacun d’un quartier.</p>
   <p>Élu référent, il assiste aux réunions plénières. Il peut également assister, sur invitation des membres du comité d’animation aux « réunions des 
     conseillers » préparatoires aux plénières.</p>
@@ -169,7 +168,7 @@ et leurs opinions.</li>
     l’interlocuteur premier du Conseil pour obtenir des réponses de la mairie et de ses services aux questions du Conseil ou 
     formulées par des habitants. Il informe le Conseil de quartier des suites données aux vœux adoptés ou non par le Conseil 
     d’arrondissement.</p>
-  <h3>Article 16 : Soutien logistique de la mairie</h3>
+  <h3 className={styles.subsubtitle}>Article 16 : Soutien logistique de la mairie</h3>
   <p>La mairie d’arrondissement fournit un soutien logistique aux Conseils de quartier pour leur bon fonctionnement. Elle met 
     à leur disposition les documents administratifs utiles à leur bonne information, des locaux pour se réunir et recevoir du 
     courrier, ainsi que des sessions de formation.</p>
@@ -177,8 +176,8 @@ et leurs opinions.</li>
     des Conseils de quartier.</p>
   <p>Les membres du Conseil de quartier acceptent les contraintes de la mairie d'arrondissement pour toute demande, notamment en 
     termes de délais.</p>
-  <h2>IV. Réunions plénières et commissions thématiques, ouvertes au public</h2>
-  <h3>Article 17 : Réunions plénières</h3>
+  <h2 className={styles.subtitle}>IV. Réunions plénières et commissions thématiques, ouvertes au public</h2>
+  <h3 className={styles.subsubtitle}>Article 17 : Réunions plénières</h3>
   <p>Le Conseil de quartier se réunit en séance plénière ouverte au public au moins trois fois par an. Seules les questions 
     inscrites à l’ordre du jour et celles ayant un lien géographique avec le quartier ou un intérêt pour celui-ci font l’objet 
     de débats. L’ordre du jour des réunions plénières est établi comme indiqué à l’article 12 par les « réunions de conseillers ».</p>
@@ -188,35 +187,35 @@ et leurs opinions.</li>
   <p>Tout membre d’un Conseil de quartier s’engage à contribuer à la sérénité des débats et à respecter les principes d’indépendance 
     vis-à-vis des organisations politiques et de non discrimination sociale, ethnique, religieuse ou fondée sur tout autre motif.</p>
   <p>La mairie d'arrondissement s'attache à rendre accessibles les réunions à toutes les personnes en situation de handicap dans la mesure de ses possibilités.</p>
-  <h3>Article 18 : Procès verbal</h3> 
+  <h3 className={styles.subsubtitle}>Article 18 : Procès verbal</h3> 
   <p>Chaque réunion plénière du Conseil de quartier, ainsi que chaque « réunion des conseillers » font l’objet d’un procès verbal rédigé par le secrétaire de 
     séance choisi dans le comité d’animation, diffusé dans les quinze jours à ses membres ainsi qu’au Maire d’arrondissement.</p>
   <p>Un registre des procès verbaux des réunions est ouvert et tenu à jour, à la mairie d’arrondissement. Ces comptes rendus seront publiés sur le site 
     internet de la mairie.</p>  
-  <h3>Article 19 : Commissions thématiques</h3>  
+  <h3 className={styles.subsubtitle}>Article 19 : Commissions thématiques</h3>  
   <p>Le Conseil de quartier peut décider de mettre en place autant de commissions thématiques qu’il le souhaite. Ouvertes à tous 
     les habitants volontaires du quartier elles sont convoquées à la libre initiative d’une ou plusieurs personnes choisies en 
     « réunion de conseillers », qui en seront les animateurs.</p>
-  <h3>Article 20 : Communication</h3> 
+  <h3 className={styles.subsubtitle}>Article 20 : Communication</h3> 
   <p>Les réunions plénières et les commissions thématiques du Conseil de quartier sont ouvertes au public et doivent être portées à sa connaissance par 
     tous moyens appropriés.</p>
-  <h3>Article 21 : Plate-forme citoyenne</h3>
+  <h3 className={styles.subsubtitle}>Article 21 : Plate-forme citoyenne</h3>
   <p>La mairie mettra à disposition des conseils une plate-forme citoyenne sur le site de la mairie. Elle permettra une participation de ceux qui 
     ne peuvent assister physiquement aux diverses réunions.</p>
   <p>À la demande des conseils, elle permettra de réaliser des sondages sur des sujets locaux. </p>
-  <h3>Article 22 : Présence des élus</h3>
+  <h3 className={styles.subsubtitle}>Article 22 : Présence des élus</h3>
   <p>Le Maire d’arrondissement est entendu sur sa demande en réunion plénière par le Conseil de quartier.</p>
   <p>Le Conseil de quartier peut inviter le Maire ou tout autre élu pour participer aux débats. Une invitation spécifique doit être envoyée conjointement 
     à l’envoi de l’ordre du jour.</p>
-  <h2>V. Cadre participatif</h2>
-  <h3>Article 23 : Règlement intérieur</h3>
+  <h2 className={styles.subtitle}>V. Cadre participatif</h2>
+  <h3 className={styles.subsubtitle}>Article 23 : Règlement intérieur</h3>
   <p>Chaque Conseil de quartier peut établir son règlement intérieur, qui est soumis pour approbation au Conseil d’arrondissement. Il ne peut être en 
     contradiction avec les articles de cette charte.</p>
-  <h3>Article 24 : Rapport de bilan de mandat</h3>
+  <h3 className={styles.subsubtitle}>Article 24 : Rapport de bilan de mandat</h3>
   <p>L’activité du Conseil de quartier est retracée en fin de mandat dans un rapport communiqué au Maire d’arrondissement par 
     le comité d’animation et porté à la connaissance des habitants du quartier en réunion plénière du Conseil de quartier. 
     Ce rapport pourra revêtir diverses formes : fichier, diaporama, vidéo, etc.</p>
-  <h3>Article 25 : Observatoire de la démocratie participative du 14e arrondissement</h3>
+  <h3 className={styles.subsubtitle}>Article 25 : Observatoire de la démocratie participative du 14e arrondissement</h3>
   <p>Un Observatoire de la démocratie participative du 14ème arrondissement est institué pour une durée équivalente à celle du mandat des Conseils de quartier. 
     Il est composé de treize membres :</p>
     <ul>
@@ -229,13 +228,13 @@ et leurs opinions.</li>
     du fonctionnement 7 des Conseils de quartier, du budget participatif local et de tous sujets concernant la démocratie 
     participative. Ce rapport est remis au Maire d’arrondissement et aux conseillers de quartier qui doivent le communiquer 
     aux membres de leur Conseil.</p>
-  <h3>Article 26 : Adoption de la charte</h3>
+  <h3 className={styles.subsubtitle}>Article 26 : Adoption de la charte</h3>
   <p>La Charte des Conseils de quartier du 14e qui s’applique pour la durée d’un mandat de trois ans, fait l’objet, pour son adoption, 
     d’une délibération du Conseil d’arrondissement.</p>
   <p>L’élu garant de l’application de cette charte des Conseils de quartier est l’adjoint du maire en charge de la démocratie locale. Il est l’interlocuteur 
     de référence à qui s’adresser pour tout problème de dysfonctionnement ou de non-conformité à la charte.</p>
-  <h2>ANNEXE DE LA CHARTE</h2>
-  <h3>Délimitation des quartiers</h3>
+  <h2 className={styles.subtitle}>ANNEXE DE LA CHARTE</h2>
+  <h3 className={styles.subsubtitle}>Délimitation des quartiers</h3>
   <ul>
     <li>Le Conseil de quartier « Montparnasse - Raspail » couvre le territoire : 1 à 39 rue du Départ, 68 à 174 boulevard du Montparnasse, 95 à la fin du boulevard de Port-Royal, 2 à 50 rue de la Santé, 2 à 60 boulevard Saint Jacques, 2 à la fin de la rue Froidevaux, côté pair de la rue Jean Zay, Place de Catalogne dans la portion comprise entre la rue Jean Zay et la rue du Commandant Mouchotte, rue du Commandant Mouchotte, limite du 15ème arrondissement et toutes les rues à l’intérieur de cette délimitation.</li>
     <li>Le Conseil de quartier « Pernety » couvre le territoire : limite du 15ème arrondissement, place de Catalogne jusqu’à la rue Jean Zay, côté impair de la rue Jean Zay, 94 à la fin de l’avenue du Maine côté pair, 60 à la fin de la rue d’Alésia côté pair et toutes les rues à l’intérieur de cette délimitation.</li>

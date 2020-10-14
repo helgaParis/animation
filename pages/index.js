@@ -17,21 +17,19 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
-            <h1 className={styles.title}>Conseil de quartier Jean Moulin Porte d’Orléans (JMPO)</h1>
             <div className={stylesPlan.row}>
 
                 <div className={stylesPlan.column}>
                     <div className={styles.encadrebleu}>
-                    <h2>Agenda</h2>
-                    <h3>Plénière du Conseil de quartier : le 6 octobre 2020 à 19h en visio-conférence</h3>
-                    <p>Lien zoom : {""}
-                    <a href="https://zoom.us/j/97306443824?pwd=YW5YTHJtNDFnOE5LYzdYeDlRUitsdz09"  rel="noopener" target="_blank" >Participer à la réunion </a>
+                    <h2 className={styles.subtitle}>Agenda</h2>
+                    <h3 className={styles.subsubtitle}>Plénière du Conseil de quartier : le 6 octobre 2020 à 19h en visio-conférence</h3>
+                    <p>Lien zoom : Réunion terminée
                                 </p>
                     </div>
                     <div className={styles.encadre}>
-                        <h2>Dernières Nouvelles</h2>
+                        <h2 className={styles.subtitle}>Dernières Nouvelles</h2>
                         
-                        <h3>Ce site Internet</h3>
+                        <h3 className={styles.subsubtitle}>Ce site Internet</h3>
                         <p>Ce site est le projet de confinement de plusieurs membres du comitée d'animation. C'est un travail en progrès et nous ajouterons du contenu sur les pages d'information au cours des prochaines semaines. <br/> La page Actualités annoncera les évenements en forme de blog.</p>
                         <p>N'hésitez pas à nous faire part de vos {""}
                         <Link href="/contribuer">

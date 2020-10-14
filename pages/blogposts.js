@@ -18,10 +18,9 @@ export default function Blogposts({articles}) {
         <ul>
           {articles.map((article) => (
             <li key={article.id}>
-            <h2>{article.title}</h2>
-            <h3>{article.text}</h3>
-            <p>{article.author}</p>
-            <p>{article.date}</p>
+            <h2  className={styles.blogtitle} >{article.title}</h2>
+            <p  className={styles.blogtext}>{article.text}</p>
+            <p  className={styles.bloginfos}>{article.author}, le {article.date}</p>
             </li>
           ))}
         </ul>
