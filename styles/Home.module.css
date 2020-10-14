@@ -42,7 +42,8 @@
     flex-flow: row wrap;      
  }
  .navbar ul{
-   padding-inline-start:  0; 
+  /* padding-inline-start:  0; */ 
+   padding-left:0;
  }
  .navbar li{
     list-style-type : none;
