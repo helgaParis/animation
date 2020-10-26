@@ -23,7 +23,9 @@ export default function Home() {
                     <div className={styles.encadrebleu}>
                     <h2 className={styles.subtitle}>Agenda</h2>
                     <h3 className={styles.subsubtitle}>Plénière du Conseil de quartier : le 6 octobre 2020 à 19h en visio-conférence</h3>
-                    <p>Lien zoom : Réunion terminée
+                    <p><Link href="/anim/cra8">
+                    <a title="Compte Rendu du du 22 septembre  2020">Compte Rendu</a>
+                    </Link>
                                 </p>
                     </div>
                     <div className={styles.encadre}>
