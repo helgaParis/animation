@@ -39,7 +39,7 @@ export default function Layout({ children}) {
                 />
                 <meta
                     property="og:image"
-                    content={`https://cq.petrovic.ovh/public/logo.png/`}
+                    content={`https://conseil-jmpo.fr/public/logo.png/`}
                 />       
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
