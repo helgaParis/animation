@@ -15,10 +15,22 @@ export default function Commite() {
         <h1 className={styles.title}>Le Comité d'Animation</h1>
         <p>Réferent: Eric Bouchaud</p>
         <p>Liste des membres du comité d'animation voir sur le site de la mairie: </p>
-        <p>
-            
+        <p>    
         <a href="https://www.mairie14.paris.fr/vie-citoyenne/les-conseils-de-quartier/le-conseil-de-quartier-jean-moulin-porte-d-orleans-226" rel="noopener" target="_blank"> Page de la mairie: Les membres des commitées d'animation </a> 
         </p>
+        
+        <h2 className={styles.subtitle} >Prochaine réunion zoom le 12 novembre</h2>
+        <p>A l'ordre du jour :</p>
+        <ul>
+        <li> Bilan de la séance plénière du 6 octobre dernier</li>
+       <li> Proposition de Linda pour un soutien financier à COOP14 (à soumettre aux conseillers)</li>
+        <li> Point sur le site de notre CQ avec Helga et Zéliha</li>
+        <li> Proposition de Zéliha par rapport aux petits commerces en période de confinement</li>
+        <li> Autres points sur la vie du quartier dans cette période compliquée...</li>
+        <li> Proposition de planning pour une réunion des conseillers, suivie d'une nouvelle plénière en 2021</li>
+        <li>...</li>
+        </ul>
+        
         <nav  aria-label="navigation liste des comptes-rendus du comité">
         <h2 className={styles.subtitle} id="navigation-comptes-rendus-anim">Les comptes rendus de nos réunions</h2>
         <p>Liste pas complète</p>
