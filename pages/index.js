@@ -22,6 +22,8 @@ export default function Home() {
                 <div className={stylesPlan.column}>
                     <div className={styles.encadrebleu}>
                     <h2 className={styles.subtitle}>Agenda</h2>
+                    <h3 className={styles.subsubtitle}>Comitée d'animation réunion zoom le 12 novembre</h3>
+                    
                     <h3 className={styles.subsubtitle}>Plénière du Conseil de quartier : le 6 octobre 2020 à 19h en visio-conférence</h3>
                     <p><Link href="/anim/cra8">
                     <a title="Compte Rendu du du 22 septembre  2020">Compte Rendu</a>
