@@ -25,8 +25,7 @@ export default function Blogposts({articles}) {
           ))}
         </ul>
         </main>
-        // - the revalidate command adds regeneration to the static page 
-        revalidate: 1, // In seconds, every n seconds max
+       
       </Layout>
     )
   }
@@ -44,5 +43,7 @@ export default function Blogposts({articles}) {
       props: {
         articles: JSON.parse(JSON.stringify(articles)),
       },
+      // - the revalidate command adds regeneration to the static page 
+      revalidate: 1, // In seconds, every n seconds max
     };
   }
