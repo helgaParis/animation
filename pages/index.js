@@ -32,9 +32,15 @@ export default function Home() {
                     </div>
                     <div className={styles.encadre}>
                         <h2 className={styles.subtitle}>Dernières Nouvelles</h2>
+                        <h3>Une carte des commerces ouvertes pendant le confinement</h3>
+                        <p>Trouvez des services accesibles dans le quartier {""}
+                        <Link href="/blog">
+                        <a title="Page des actualités" >sur la page Actualités ! </a>
+                        </Link>
+                        </p>
                         
                         <h3 className={styles.subsubtitle}>Ce site Internet</h3>
-                        <p>Ce site est le projet de confinement de plusieurs membres du comitée d'animation. C'est un travail en progrès et nous ajouterons du contenu sur les pages d'information au cours des prochaines semaines. <br/> La page Actualités annoncera les évenements en forme de blog.</p>
+                        <p>Ce site est le projet de confinement de plusieurs membres du comitée d'animation. C'est un travail en progrès et nous ajouterons du contenu sur les pages d'information au cours des prochaines semaines. </p>
                         <p>N'hésitez pas à nous faire part de vos {""}
                         <Link href="/contribuer">
                                     <a title="Page de contributions" >propositions </a>
