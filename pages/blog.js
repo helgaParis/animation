@@ -22,6 +22,10 @@ export default function Blogposts({articles}) {
           <li key={article.id}>
           <h2  className={styles.blogtitle} >{article.title}</h2>
           <p  className={styles.blogtext}>{article.text}</p>
+          <p>
+          <img src={article.image1} className={styles.blogimage} alt={article.alt1} ></img>
+          <img src={article.image2} className={styles.blogimage} alt={article.alt2} ></img>
+          </p>
           <p>{""}<a
            href={article.link} 
           title={article.link}
