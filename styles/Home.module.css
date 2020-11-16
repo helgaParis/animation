@@ -187,6 +187,13 @@
   font-size: 0.8em;
   background-color: #c8edff9e;
 }
+.blogimage{
+  max-width: 42%;
+  padding:1%;
+}
+.blogimgtext{
+  font-size: 0.9em;
+}
 
 /*  Responsive styles */
   @media (max-width: 600px) {
