@@ -22,6 +22,14 @@ export default function Blogposts({articles}) {
             <li key={article.id}>
             <h2  className={styles.blogtitle} >{article.title}</h2>
             <p  className={styles.blogtext}>{article.text}</p>
+            <p>{""}<a
+             href={article.link} 
+            title="Compte Rendu du 26 mai 2020"
+            target="_blank"
+            rel="noopener noreferrer" >
+            {article.link}            
+            </a></p>
+
             <p  className={styles.bloginfos}>{article.author}, le {article.date.slice(0,10)} à {article.date.slice(11,16)} h</p>
             </li>
           ))}
