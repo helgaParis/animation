@@ -182,10 +182,12 @@
 }
 .blogtext{
   font-size: 1em;
+  margin-bottom: 0;
 }
 .bloginfos{
   font-size: 0.8em;
   background-color: #c8edff9e;
+  margin-bottom: 1em;
 }
 .blogimage{
   max-width: 42%;

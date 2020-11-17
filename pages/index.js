@@ -12,7 +12,7 @@ export default function Home() {
             <title>Accueil - {siteTitle}</title>
             <meta
                 name="keywords"
-                content="Accueil, conseil de quartier, democratie participative, democratie de proximité, contribuer, vie de quartier"
+                content="Accueil, conseil de quartier, democratie participative, democratie de proximité, contribuer, vie de quartier, Porte d'Orléans, Jean Moulin, Alésia, Paris 14e,"
             />
         </Head>
 
@@ -23,10 +23,14 @@ export default function Home() {
                     <div className={styles.encadrebleu}>
                     <h2 className={styles.subtitle}>Agenda</h2>
                     <h3 className={styles.subsubtitle}>Comitée d'animation réunion zoom le 12 novembre</h3>
+                    <p><Link href="/anim/cra9">
+                    <a title="Compte Rendu du 12 novembre  2020">Compte Rendu</a>
+                    </Link>
+                                </p>
                     
-                    <h3 className={styles.subsubtitle}>Plénière du Conseil de quartier : le 6 octobre 2020 à 19h en visio-conférence</h3>
+                    <h3 className={styles.subsubtitle}>Plénière du Conseil de quartier : le 6 octobre 2020 </h3>
                     <p><Link href="/anim/cra8">
-                    <a title="Compte Rendu du du 22 septembre  2020">Compte Rendu</a>
+                    <a title="Compte Rendu du 6 octobre  2020">Compte Rendu</a>
                     </Link>
                                 </p>
                     </div>
@@ -44,12 +48,10 @@ export default function Home() {
                         <p>N'hésitez pas à nous faire part de vos {""}
                         <Link href="/contribuer">
                                     <a title="Page de contributions" >propositions </a>
-                                    </Link>
-                        
+                                    </Link>                        
                         et de nous informer de vos événements dans le quartier.</p>
                     </div>
-                    
-                    
+                                        
                 </div>
                 <div className={stylesPlan.columnright}>
                     <img src="/plan14e.jpg" className={stylesPlan.plan14} alt="Plan des six quartiers du 14e arrondissemnt de Paris" ></img>
