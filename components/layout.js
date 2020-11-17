@@ -11,7 +11,6 @@ export default function Layout({ children}) {
         
         <div className={styles.container}>
             <Head>         
-           
                 <meta 
                 name="viewport" 
                 content="width=device-width, initial-scale=1.0"

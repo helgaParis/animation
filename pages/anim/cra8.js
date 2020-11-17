@@ -5,11 +5,11 @@ import Link from 'next/link'
 
 import Nav1anim from '../../components/nav1anim'
 
-export default function Cra7() {
+export default function Cra8() {
     return (
         <Layout >
         <Head>
-          <title>Comité d'Animation - Compte Rendu 8 - Conseil de quartier JMPO</title>
+          <title>Comité d'Animation - Compte Rendu 8 - Comitée d'animation, conseil de quartier JMPO</title>
         </Head>
         <main className={styles.main}>
             <Nav1anim></Nav1anim>

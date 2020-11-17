@@ -8,7 +8,7 @@ export default function Cra7() {
     return (
         <Layout >
         <Head>
-          <title>Comité d'Animation -Compte Rendu 7 - Conseil de quartier JMPO</title>
+          <title>Comité d'Animation -Compte Rendu 7 - Comitée d'animation, conseil de quartier JMPO</title>
         </Head>
         <main className={styles.main}>
             <Nav1anim></Nav1anim>

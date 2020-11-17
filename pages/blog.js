@@ -10,6 +10,10 @@ export default function Blogposts({articles}) {
         <Layout >
         <Head>
           <title>Actualités - {siteTitle}</title>
+          <meta
+          name="keywords"
+          content="Actualités du conseil de quartier, news, Porte d'Orléans, Jean Moulin, Alésia, commerces ouvertes, carte, plan, confinement, contribuer, vie de quartier"
+      />
         </Head>
         <main className={styles.main}>
        
