@@ -24,7 +24,6 @@ The blog is now live with content coming from Mongodb Atlas, the forms allowing 
 It started with a standard npx create-next-app.
 I have a preference of functions over classes, so when a React or Next manual document still indicates a solution with classes, I found the hook solution.
 I tried to apply accessibility and best practice norms to all pages and the head elements will have distinct SEO elements soon.
-One element is not resolved at the moment, the html element has no lang tag. This worked fine on Next 9.5.2 but broke on 9.5.3 in September 2020. Not working on 9.5.4 either. I will change it here as soon as it can be fixed. As the website is French, it's a bother. (/pages/_documents.js - the error stemms from being obliged to import Html from Next documents )
 
 ## Credits
 
