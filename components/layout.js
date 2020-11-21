@@ -142,13 +142,10 @@ export default function Layout({ children}) {
                                     </Link>
                                 </li>
                             </ul>
-                        </li>
-                        
-                        <br className={styles.smalldistance} />
-                        
+                        </li>                        
                         <li >
                             <Link href="/realisations" >
-                            <a title="Les réalisations du Conseil Jean Moulin Porte d\'Orléans" >  Réalisations</a>
+                            <a title="Les réalisations du Conseil Jean Moulin Porte d\'Orléans" className={styles.big}>  Réalisations</a>
                             </Link>
                         </li>
                         <li> 
