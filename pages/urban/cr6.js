@@ -7,14 +7,14 @@ export default function Cr6() {
     return (
         <Layout >
         <Head>
-          <title> Conseil de quartier JMPO – Commission urbanisme</title>
+          <title> Conseil de quartier JMPO – Commission urbanisme - Compte Rendu 6</title>
         </Head>
         <main className={styles.main}>
         <Nav1urban></Nav1urban>
         <h1 className={styles.title}>Compte rendu de la réunion du 10 septembre 2019</h1>
-        <p>Présents : Antonnella, Chantal, Paul, Rachida, Jean-Louis, Eric</p>
-        <p>Invitée : Sylvia Comm.Urba CQ Montsouris</p>
-        <h3>Echanges avec Sylvia</h3>
+        <p>Présents : Antonnella, Chantal, Paul, Rachida, Jean-Louis, Eric<br/>
+        Invitée : Sylvia Comm.Urba CQ Montsouris</p>
+        <h2>Echanges avec Sylvia</h2>
         <p>Quelques points sensibles sur le secteur Montsouris : </p>
         <ul>
             <li>Les riverains se plaignent d’une circulation excessive sur la rue Nansouty</li>
@@ -28,7 +28,7 @@ export default function Cr6() {
             <li>Une circulation piétonne compliquée côté BNP avec le positionnement du kiosque et d’un arbre</li>
             <li>Un feu décalé pour les bus permettant un passage anticipé permettrait d’éviter des embouteillages aux heures de pointe</li>
         </ul>
-        <h3>Etude APUR sur la Porte d’Orléans</h3>
+        <h2>Etude APUR sur la Porte d’Orléans</h2>
         <p>Les propositions ne sont pas tjs très lisibles, mais certaines vont dans le bon sens, comme le déport des cars de tourisme sur l’avenue de la Porte de Montrouge</p>
 
 

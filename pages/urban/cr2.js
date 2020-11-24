@@ -7,19 +7,19 @@ export default function Cr2() {
     return (
         <Layout >
         <Head>
-          <title> Conseil de quartier JMPO – Commission urbanisme</title>
+          <title> Conseil de quartier JMPO – Commission urbanisme - Compte Rendu 2</title>
         </Head>
         <main className={styles.main}>
             <Nav1urban></Nav1urban>
             <h1 className={styles.title}>Compte rendu de la réunion du 17 janvier 2019</h1>
-            <p>Présents : Paul, Jean-Philippe, Antonella, Claire, Chantal et Eric</p>
-            <p>Invités : Agnès Bertrand, adjointe référente pour JMPO et Jérôme Perrot, chargé de mission urbanisme, voirie, déplacement</p>
-            <h3>Fonctionnement de la Commission</h3>
+            <p>Présents : Paul, Jean-Philippe, Antonella, Claire, Chantal et Eric<br/>
+            Invités : Agnès Bertrand, adjointe référente pour JMPO et Jérôme Perrot, chargé de mission urbanisme, voirie, déplacement</p>
+            <h2>Fonctionnement de la Commission</h2>
             <p>Antonella élue référente, en binôme avec Eric qui établira le lien avec le Comité d’animation</p>
             <p>Documents AUT et DSTS à rediffuser aux membres de la Commission : donnent une image du quartier sur le plan social et sociologique</p>
             <p>Claire porte à connaissance une étude statistique sur le 92</p>
             <p>Chantal rejoint la Commission</p>
-            <h3>Revue des projets en cours</h3>
+            <h2>Revue des projets en cours</h2>
             <p>Projets immobiliers</p>
             <p>100 Bd Jourdan : opération immobilière privée de 60 logements (dont 1/3 sociaux) avec Bouygues. Permis de construire déposé au printemps &rArr; il est encore temps de faire remonter les remarques sur le projet. Resto de type associatif au rdc : qui sera en charge de la commercialisation, quel montant de loyer, quelle assurance sur la pérennité du projet. </p>
             <p>Ancien garage Citroën : ouverture dans 3 ou 4 mois et pour une durée de 2 ans d’un centre d’hébergement d’urgence de 256 places (personnes seules avec enfants de – de 3 ans). Gestion par Emmaüs Solidarité. Pas de difficulté pour scolariser les enfants dans le quartier. Des activités prévues au RDC et en sous-sol (loisirs, sport…). Faire des propositions (bibliothèque, atelier numérique…), l’enjeu étant de capitaliser sur ce qui réussira dans la période des 2 ans. Le bâtiment pourrait-il être classé pour protéger son architecture de qualité ?</p>

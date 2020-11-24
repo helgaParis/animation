@@ -8,12 +8,12 @@ export default function P2() {
     return (
         <Layout >
         <Head>
-          <title> Conseil de quartier JMPO – Commission urbanisme - Interview</title>
+          <title> Conseil de quartier JMPO – Commission urbanisme - Interview 1</title>
         </Head>
         <main className={styles.main}>
             <Nav2urban></Nav2urban>
-            <p>Interview Patrick Bernard, président HyperVoisins</p>
-            <h3 className={styles.title}>Dans une récente interview, vous dites vouloir faire de ces voisins des “maîtres d’ouvrage de l’espace public”. Aujourd’hui, quelles relations souhaitez-vous construire avec la municipalité ?</h3>
+            <h2>Interview Patrick Bernard, président HyperVoisins</h2>
+            <h1 className={styles.title}>Dans une récente interview, vous dites vouloir faire de ces voisins des “maîtres d’ouvrage de l’espace public”. Aujourd’hui, quelles relations souhaitez-vous construire avec la municipalité ?</h1>
             <p>Je crois que sur certains projets, on a besoin d’inventer un nouveau cadre juridique susceptible de légitimer l’implication citoyenne. Je vais prendre en exemple un de nos projets, « Et toi, tu ferais quoi à ma Place ? », qui se propose de transformer la Place des Droits de l’Enfant en place de village. Ce projet nous a amenés à faire l’été dernier une consultation publique pour questionner la pertinence de notre proposition auprès de nos voisins. Des questionnaires nous ont permis de définir les attentes des riverains : animer la place, la piétonniser, la végétaliser, l’équiper en mobilier urbain léger. À la suite de cette première phase, nous avons constitué une équipe d’urbaniste, d’architecte, de paysagiste du quartier qui a dessiné le projet que nous avons présenté à la Mairie. La suite, ça a été des réunions régulières avec les services techniques (services de la voirie, la direction des espaces verts, etc.) afin de chiffrer le chantier et se répartir la charge de travail. Or, cette co-conception, si elle s’apparente à une co-maîtrise d’ouvrage, ne peut, dans les faits, réellement en être une car nous évoluons sur l’espace public et sans délégation. Mais cette expérimentation ouvre cependant un vaste champ de collaboration, entre les citoyens et la collectivité, qui tout en s’appuyant sur l’expertise professionnelle des services techniques autorise une implication très poussée des riverains dans l’aménagement de leur environnement quotidien.
             </p>
             <p>Reste, si l’on souhaite modéliser ce type de fonctionnement, qu’il faudra inventer un cadre à cette implication. Un cadre d’action, mais également un cadre juridique qui puisse légitimer l’action positive et d’intérêt général de certains citoyens sans qu’elle soit contestée sur le terrain du droit.</p>

@@ -8,7 +8,7 @@ export default function P1() {
     return (
         <Layout >
         <Head>
-          <title> Conseil de quartier JMPO – Commission urbanisme- Projet</title>
+          <title> Conseil de quartier JMPO – Commission urbanisme - Projet 1</title>
         </Head>
         <main className={styles.main}>
             <Nav2urban></Nav2urban>
@@ -18,7 +18,7 @@ export default function P1() {
             <p>à partir de l’étude APUR du 17 juillet 2019</p>
             <div className={stylesPlan.row}>
               <div className={stylesPlan.column}>
-              <h3>Quatre sujets dans l’étude APUR</h3>
+              <h2>Quatre sujets dans l’étude APUR</h2>
               <p>Sans reprendre ici les développements qui figurent dans l’étude, rappelons les quatre orientations données par l’Atelier 4 :</p>
               <ul>
                 <li>Requalification des liaisons douces entre la RD920 et l’av. du Gal Leclerc </li>
@@ -32,7 +32,7 @@ export default function P1() {
                 <img src="/urban-p1.png" className={stylesPlan.plan14} alt="Plan de la Porte d'Orléans" ></img>
               </div>
             </div>
-            <h3>Les réflexions de la commission urbanisme</h3>
+            <h2>Les réflexions de la commission urbanisme</h2>
             <p>En première analyse, l’étude apparait comme une addition de mesures ponctuelles qui ne laissent pas transparaitre une approche globale du secteur, lisible dans ses intentions de requalification, notamment en relation avec le réaménagement de l’avenue du général Leclerc. On peut comprendre que les capacités budgétaires ne permettent pas de réaliser un projet global en une seule fois. Pour autant, comment s’engager sur des mesures sectorielles sans les resituer dans la cohérence d’un plan  d’ensemble.</p>
             <p>Du point de vue de la commission, différentes suggestions mériteraient d’être approfondies autour d’enjeux majeurs : </p>
             <ul>

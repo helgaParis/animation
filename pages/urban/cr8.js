@@ -7,7 +7,7 @@ export default function Cr8() {
     return (
         <Layout >
         <Head>
-          <title> Conseil de quartier JMPO – Commission urbanisme</title>
+          <title> Conseil de quartier JMPO – Commission urbanisme - Compte Rendu 8</title>
         </Head>
         <main className={styles.main}>
             <Nav1urban></Nav1urban>

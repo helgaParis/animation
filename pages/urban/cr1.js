@@ -8,13 +8,13 @@ export default function Cr1() {
     return (
         <Layout >
         <Head>
-          <title> Conseil de quartier JMPO – Commission urbanisme</title>
+          <title> Conseil de quartier JMPO – Commission urbanisme - Compte Rendu 1</title>
         </Head>
         <main className={styles.main}>
             <Nav1urban></Nav1urban>
             <h1 className={styles.title}>Compte rendu de la réunion du 18 décembre 2018</h1>
             <p> 8 personnes présentes sur 14 inscrits dans la commission</p>
-            <h3></h3>
+            
             <p>Tour de table qui permet aux anciens de rappeler les sujets les plus importants qui ont été abordés précédemment, notamment : la petite gare, l'avenue Maréchal Leclerc et la Porte d'Orléans, la petite ceinture</p>
             <p>La prochaine réunion sera l'occasion de passer en revue les projets en cours ou en réflexion. Pour cela, il est décidé d'inviter une ou deux personnes de la mairie impliquées dans l'urbanisme sur le quartier.</p>
             <p>- Le référent sera choisi à cette prochaine réunion. Il sera en binôme avec un membre de notre commission également membre du Comité d'animation,  capable de relayer l'information : Paul ou Eric. Et pour respecter la parité, ce sera donc de préférence une femme.</p>

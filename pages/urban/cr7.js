@@ -7,20 +7,20 @@ export default function Cr7() {
     return (
         <Layout >
         <Head>
-          <title> Conseil de quartier JMPO – Commission urbanisme</title>
+          <title> Conseil de quartier JMPO – Commission urbanisme - Compte Rendu 7</title>
         </Head>
         <main className={styles.main}>
         <Nav1urban></Nav1urban>
         <h1 className={styles.title}>Compte rendu de la réunion du 6 novembre 2019</h1>
-        <p>Présents : Annie, Frédéric, Antonella, Claire, Rachida, Laurence, Eric</p>
-        <p>Invité : François Cantagreil - commission transport-mobilité CQ Montsouris-Darreau</p>
+        <p>Présents : Annie, Frédéric, Antonella, Claire, Rachida, Laurence, Eric<br/>
+        Invité : François Cantagreil - commission transport-mobilité CQ Montsouris-Darreau</p>
         <p>La commission est heureuse d’accueillir François Cantagreil qui expose rapidement le mode de fonctionnement de sa commission, et les principaux sujets de réflexion :</p>
         <ul>
             <li>Une des priorités mises en avant par les habitants riverains du parc Montsouris est le nœud de circulation à l’intersection des rues Gazan et Nansouty avec le Bd des maréchaux (nuisance sonore et pollution). La commission a obtenu qu’une section de la rue Gazan soit mise en sens unique ce qui a considérablement fluidifié la circulation aux heures de pointe. La même demande a été émise auprès de la mairie pour la rue Nansouty (en cours).</li>
             <li>Une demande adressée à la RATP pour créer une sortie nord pour le RER a essuyé un refus net et sans appel.</li>
             <li>Vœu adressé à la mairie pour obtenir sur certains tronçons une circulation limitée aux bus + riverains (comme la rue Daguerre)</li>
         </ul>
-        <p>Aménagement de la Porte d’Orléans (étude APUR)</p>
+        <h2>Aménagement de la Porte d’Orléans (étude APUR)</h2>
         <p>En s’appuyant sur les tirages en format A1 (extraits de l’étude APUR) affichés au mur, chacun a pu exprimer ses remarques au regard des orientations proposées. A retenir :</p>
         <ul>
             <li>L’étude est une addition de mesures qui ne laissent pas transparaitre une approche globale du secteur, lisible dans ses intentions de requalification, notamment en relation avec le réaménagement de l’avenue du général Leclerc.</li>
