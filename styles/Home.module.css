@@ -2,8 +2,8 @@
 
 .container {
     max-width: 90%;
-    padding: 0 1rem;
-    margin: 3rem auto 6rem;
+    padding: 0 1%;
+    margin: 2% auto 4%;
     min-height: 100vh;
     padding: 0 0.5rem;
     display: flex;
@@ -37,7 +37,7 @@
 }
   
  .navbar{
-    margin-top: 1rem;
+    margin-top: 2%;
     display: flex;
     flex-flow: row wrap;      
  }
@@ -75,6 +75,7 @@
     padding:0.2rem 0.3rem;
     margin-bottom: 0.4rem;
 }
+/* menu3 = menus on certain pages on the main page not on the header */
 .menu3 {
     border-top: 1px solid #CCEEFF;
     border-right: 1px solid #CCEEFF;
@@ -160,6 +161,10 @@
 .sitetitle{
   font-size: 1.4em;
   background-color: ghostwhite;
+ padding-left: 0.4rem;
+ padding-right: 0.4rem;
+ margin-bottom:  2%;
+ margin-top:0;
   white-space:nowrap;
   
 }
@@ -175,6 +180,10 @@
   font-size: 1.1em;
   font-weight: 600;
   /* background-color: #aaccff; */
+}
+.boldText{
+  font-weight:500  ;
+  color:rgb(165, 32, 32);
 }
 .blogtitle{
   font-size: 1.2em;
@@ -203,6 +212,9 @@
          padding:0.2rem;
          margin:0;
      }
+     .menu2 li{
+      line-height: 1.6rem;
+   }
      .menu3 li {
          display: block;
          line-height: 1.5rem;

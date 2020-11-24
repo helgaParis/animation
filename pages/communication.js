@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import styles from '../styles/Home.module.css'
-import utilStyles from '../styles/layout.module.css'
 const email='conseil14@asf-web.fr'
 
 export default function Communication() {
@@ -11,7 +10,7 @@ export default function Communication() {
           <title>Communication - {siteTitle}</title>
         </Head>
         <main className={styles.main}>
-        <div className={utilStyles.textgauche}>
+        <div >
             <h1 className={styles.title} >Commission Communication</h1>
             <p>Faire connaître les actions et le fonctionnement du conseil de quartier auprès des habitants du 14e arrondissement. Telle est la mission que s’est fixée la commission communication pour la mandature 2018-2021. </p>
             <h3 className={styles.subsubtitle}> Projet Site Internet</h3>

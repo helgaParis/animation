@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import styles from '../styles/Home.module.css'
 import flowerStyles from '../styles/flower.module.css'
-import utilStyles from '../styles/layout.module.css'
 const email='conseil14@asf-web.fr'
 export default function Climat() {
     return (
@@ -11,7 +10,7 @@ export default function Climat() {
           <title>Climat - {siteTitle}</title>
         </Head>
         <main className={styles.main}>
-        <div className={utilStyles.textgauche}>
+        <div className={flowerStyles.textgauche}>
             <h1 className={styles.title} >La commission Climat</h1>
             <p>La commission a pour but de proposer des projets visant à améliorer la qualité de vie pour les habitants du quartier et envisager également un nouvel aménagement de la porte d'Orleans en concertation avec les habitants.</p>
             <p>

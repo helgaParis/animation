@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import { connectToDatabase } from "../util/mongodb";
 
-export default function Blogposts({articles}) {
+export default function Blog({articles}) {
     return (
         <Layout >
         <Head>

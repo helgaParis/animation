@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import styles from '../styles/Home.module.css'
-import utilStyles from '../styles/layout.module.css'
 
 export default function Charte() {
 
@@ -17,7 +16,7 @@ export default function Charte() {
 démocratie locale, la mise en place de six Conseils de quartier :</p>
             <ul>
                 <li>Didot-Plaisance-Porte-de-Vanves</li>
-                <li className={utilStyles.boldText}>Jean-Moulin-Porte-D’Orléans</li>
+                <li className={styles.boldText}>Jean-Moulin-Porte-D’Orléans</li>
                 <li>Montsouris-Dareau</li>
                 <li>Montparnasse-Raspail</li>
                 <li>Mouton-Duvernet</li>
