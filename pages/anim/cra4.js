@@ -8,7 +8,7 @@ export default function Cra4() {
     return (
         <Layout >
         <Head>
-          <title>Comité d'Animation - Comitée d'animation, conseil de quartier JMPO</title>
+          <title>Comité d'Animation - Comitée d'animation, conseil de quartier JMPO - Compte Rendu 4</title>
         </Head>
         <main className={styles.main}>
             <Nav1anim></Nav1anim>
@@ -30,7 +30,7 @@ export default function Cra4() {
             <li>Faire un repérage des besoins supplémentaires en parcs stationnement vélos sur voie publique compte tenu du développement des déplacements vélos (Eric)</li>
             <li>Marquage au sol devant les petits commerces pour organiser les files d’attente : notre CQ pourrait être partie prenante de cette opération initiée par la mairie.</li>
             </ul>
-            <h3>Relevé de décisions :</h3>
+            <h2>Relevé de décisions :</h2>
             <ul>
             <li>Communication : Helga monte un projet de site avec le concours de Zeliha </li>
             <li>Aide aux personnes vulnérables : avec le concours de Kadidatiou, Éric sollicite masques et gel auprès de la mairie pour les femmes seules avec enfant hébergées à la résidence rue Morène. Se rapprocher également de la Maison des réfugiés.</li>

@@ -8,7 +8,7 @@ export default function Cra3() {
     return (
         <Layout >
         <Head>
-          <title>Comité d'Animation - Comitée d'animation, conseil de quartier JMPO</title>
+          <title>Comité d'Animation - Comitée d'animation, conseil de quartier JMPO - - Compte Rendu 3</title>
         </Head>
         <main className={styles.main}>
             <Nav1anim></Nav1anim>

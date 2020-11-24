@@ -8,12 +8,12 @@ export default function Cra2() {
     return (
         <Layout >
         <Head>
-          <title>Comité d'Animation - Comitée d'animation, conseil de quartier JMPO</title>
+          <title>Comité d'Animation - Comitée d'animation, conseil de quartier JMPO - Compte Rendu 2</title>
         </Head>
         <main className={styles.main}>
             <Nav1anim></Nav1anim>
             <h1 className={styles.title}>Comité d’animation, réunion  du 2 avril 2019</h1>
-            <h4>Présents : </h4>
+            <p>Présents : </p>
             <p>Mélody Tonolli, adjointe à la Maire chargée de la culture et de la jeunesse,<br/>
             Caroline Billard, Paris-Habitat,<br/>
             Martial Buisson, collectif GFR association ayant obtenu le marché Street Art de la Mairie de Paris,<br/>
