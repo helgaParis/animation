@@ -3,12 +3,13 @@ import Layout, { siteTitle } from '../components/layout'
 import styles from '../styles/Home.module.css'
 // import Link from 'next/link'
 import Menu1 from '../components/part1anim'
+import Menu2 from '../components/ancienanim'
 
-export default function Commite() {
+export default function Comite() {
     return (
     <Layout >
       <Head>
-        <title>Comitée - {siteTitle} </title>
+        <title>Comité - {siteTitle} </title>
       </Head>
       <main className={styles.main}>
         
@@ -19,23 +20,21 @@ export default function Commite() {
         <a href="https://www.mairie14.paris.fr/vie-citoyenne/les-conseils-de-quartier/le-conseil-de-quartier-jean-moulin-porte-d-orleans-226" rel="noopener" target="_blank"> Page de la mairie: Les membres des commitées d'animation </a> 
         </p>
         
-        <h2 className={styles.subtitle} >Prochaine réunion zoom le 12 novembre</h2>
-        <p>A l'ordre du jour :</p>
+        <h2 className={styles.subtitle} >Evénements à venir</h2>
         <ul>
-        <li> Bilan de la séance plénière du 6 octobre dernier</li>
-       <li> Proposition de Linda pour un soutien financier à COOP14 (à soumettre aux conseillers)</li>
-        <li> Point sur le site de notre CQ avec Helga et Zéliha</li>
-        <li> Proposition de Zéliha par rapport aux petits commerces en période de confinement</li>
-        <li> Autres points sur la vie du quartier dans cette période compliquée...</li>
-        <li> Proposition de planning pour une réunion des conseillers, suivie d'une nouvelle plénière en 2021</li>
-        <li>...</li>
-        </ul>
+        <li>Vote de budget en support d'une proposition de la mairie du 25 novembre</li>
+        <li>Prochaine Réunion zoom le 10 décembre</li>
+       </ul>
         
-        <nav  aria-label="navigation liste des comptes-rendus du comité">
+        <nav  aria-label="navigation liste des comptes-rendus récents du comité">
         <h2 className={styles.subtitle} id="navigation-comptes-rendus-anim">Les comptes rendus de nos réunions</h2>
-        <p>Liste pas complète</p>
+        <p>Réunions depuis décembre 2018</p>
              <Menu1></Menu1>
          </nav>
+         <nav  aria-label="navigation liste des comptes-rendus anciens du comité">
+         <p>Réunions avant décembre 2018 - les fichiers pdf s'ouvriront dans une nouvelle fenêtre</p>
+              <Menu2></Menu2>
+          </nav>
         </main>
     </Layout>
      
