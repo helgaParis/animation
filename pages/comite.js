@@ -27,8 +27,8 @@ export default function Comite() {
        </ul>
         
         <nav  aria-label="navigation liste des comptes-rendus récents du comité">
-        <h2 className={styles.subtitle} id="navigation-comptes-rendus-anim">Les comptes rendus de nos réunions</h2>
-        <p>Réunions depuis décembre 2018</p>
+        <h2 className={styles.subtitle} id="navigation-comptes-rendus-anim">Les comptes rendus de nos réunions </h2>
+        <p>Réunions  du comité et <span className={styles.bolderText }> Plenières </span>depuis décembre 2018</p>
              <Menu1></Menu1>
          </nav>
          <nav  aria-label="navigation liste des comptes-rendus anciens du comité">

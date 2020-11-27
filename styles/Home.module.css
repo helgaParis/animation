@@ -185,6 +185,14 @@
   font-weight:500  ;
   color:rgb(165, 32, 32);
 }
+.linkOverline{
+  text-decoration-line: overline;
+}
+ .bolderText a, 
+ .bolderText{
+  font-weight:600  ;
+  text-decoration: underline red;
+}
 .blogtitle{
   font-size: 1.2em;
   /* background-color: yellow; */

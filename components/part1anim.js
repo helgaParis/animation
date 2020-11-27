@@ -10,7 +10,7 @@ export default function Part1anim() {
             <a title="Compte Rendu du 12 novembre  2020">12/11/20</a>
             </Link>
         </li>
-            <li>
+            <li className={styles.bolderText}>
             <Link href="/anim/cra8">
             <a title="Compte Rendu du 6 octobre  2020">6/10/20</a>
             </Link>
