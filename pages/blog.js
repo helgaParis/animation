@@ -24,23 +24,26 @@ export default function Blog({articles}) {
         <ul>
         {articles.map((article) => (
           <li key={article.id}>
-          <h2  className={styles.blogtitle} >{article.title}</h2>
-          <p  className={styles.blogtext}>{article.text}</p>
+          {article.title && <h2  className={styles.blogtitle} >{article.title}</h2>}
+          {article.text && <p  className={styles.blogtext}>{article.text}</p>}
           {article.image1 && <img src={article.image1} className={styles.blogimage} alt={article.alt1} ></img>}
           {article.image2 && <img src={article.image2} className={styles.blogimage} alt={article.alt2} ></img>}
           {article.alt1 && <p className={styles.blogimgtext}>{article.alt1} 
           {article.alt2 && <span> - {article.alt2} </span>}
           </p>  }
           {article.link && <p>{""}
-          <a
-           href={article.link} 
-          title={article.link}
-          target="_blank"
-          rel="noopener noreferrer" >
-          {article.link}            
-          </a>
-          </p>}
-          <p  className={styles.bloginfos}>{article.author}, le {article.date.slice(0,10)} à {article.date.slice(11,16)} h</p>
+            <a
+             href={article.link} 
+            title={article.link}
+            target="_blank"
+            rel="noopener noreferrer" >
+            {article.link}            
+            </a>
+            </p>}
+          <p  className={styles.bloginfos}>
+            {article.author&&<span> {article.author}</span>}   {!article.author && <span>Information</span>}
+            {article.date && <span>,  le {article.date.slice(0,10)} à {article.date.slice(11,13)}h{article.date.slice(14,16)} </span>}
+          </p>
           </li>
         ))}
       </ul>
