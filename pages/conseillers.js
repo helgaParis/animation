@@ -26,6 +26,7 @@ export default function Conseillers() {
         <p>Lynda ABA 
        ,  Djamila ABDI
        ,  Rougui BALDE
+       ,  Marion BATELLIER
         , Hélène BISSON
         , Anne-Cécile BOIZE
         , Michelle CAILLAT
