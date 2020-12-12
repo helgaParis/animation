@@ -22,6 +22,11 @@ export default function Home() {
                 <div className={stylesPlan.column}>
                     <div className={styles.encadrebleu}>
                     <h2 className={styles.subtitle}>Agenda</h2>
+                    <h3 className={styles.subsubtitle}>Réunion des conseillers  repoussé au 17 décembre</h3>
+                    <p><Link href="/blog">
+                    <a title="Détails">Détails voir page Actualités</a>
+                    </Link>
+                                </p>
                     <h3 className={styles.subsubtitle}>Comitée d'animation réunion zoom le 12 novembre</h3>
                     <p><Link href="/anim/cra9">
                     <a title="Compte Rendu du 12 novembre  2020">Compte Rendu</a>
