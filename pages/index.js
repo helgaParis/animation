@@ -67,6 +67,7 @@ export default function Home() {
                          <img src="/plan14e.jpg" alt="Plan des six quartiers du 14e  à Paris" className={stylesPlan.plan14} ></img>
                      </div>
                   </div>
+                    <p><a href="https://opendata.paris.fr/map/les_conseil_de_quartier_du_14e/?location=16,48.82275,2.32633&basemap=stamen.toner" rel="noopener noreferrer" target="_blank">Ouvrir le plan dans une nouvelle fenêtre</a></p> 
                     <h4 className={stylesPlan.fondjauneplan}>Le Conseil de quartier « Jean Moulin – Porte d’Orléans » couvre le territoire : </h4>
                     <p >Boulevard Romain Rolland, 
                         rue du Professeur H. Vincent côté pair, rue Emile Faguet côté pair, 86 à 160 rue de la Tombe Issoire, 
