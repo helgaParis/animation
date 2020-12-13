@@ -1,8 +1,9 @@
 .plan14 {
     width:100%;
     max-width: 600px;
-    max-height: 500px;
+    max-height: 400px;
 }
+
 .row{
     display: flex;
     display: -webkit-flex; /* Safari */
@@ -30,3 +31,55 @@
 .fondjauneplan{
     background-color: #eabe4247;
 }
+
+.swappy{
+    position:relative;
+    width:100%;
+    max-width: 600px;
+    height: 400px;
+    padding-bottom: 1em;
+}
+.ibottom{  
+    position:absolute;
+      left:0;
+      top:0;
+      -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+   }
+.itop{  
+    position:absolute;
+      left:0;
+      top:0;
+      -webkit-transition: opacity 1s ease-in-out;
+      -moz-transition: opacity 1s ease-in-out;
+      -o-transition: opacity 1s ease-in-out;
+      transition: opacity 1s ease-in-out;
+}
+/* .itop:hover{  opacity: 0;} */
+@keyframes imagefade {
+      0% {
+      opacity:1;
+    }
+    45% {
+    opacity:50;
+    }
+    55%{
+    opacity:0;
+    }
+    100% {
+    opacity:0;
+    }
+    }
+    
+    .itop {
+    animation-name: imagefade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    }
+    @media (max-width: 600px) {
+        .swappy{height:150px;}
+    }
