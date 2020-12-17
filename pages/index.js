@@ -22,7 +22,7 @@ export default function Home() {
                 <div className={stylesPlan.column}>
                     <div className={styles.encadrebleu}>
                     <h2 className={styles.subtitle}>Agenda</h2>
-                    <h3 className={styles.subsubtitle}>Réunion des conseillers  repoussé au 17 décembre</h3>
+                    <h3 className={styles.subsubtitle}>Réunion des conseillers  : Annulé pour problème technique - Nos excuses</h3>
                     <p><Link href="/blog">
                     <a title="Détails">Détails voir page Actualités</a>
                     </Link>
@@ -58,26 +58,26 @@ export default function Home() {
                     </div>
                                         
                 </div>
-                <div className={stylesPlan.columnright}>
-                  <div className={stylesPlan.swappy}>
-                    <div className={stylesPlan.ibottom}>
-                      <img src="/plan-jmpo.jpg"  alt="Quartier Jean Moulin Porte d'Orléans" className={stylesPlan.plan14} ></img>
-                      </div>
-                      <div  className={stylesPlan.itop}>
-                         <img src="/plan14e.jpg" alt="Plan des six quartiers du 14e  à Paris" className={stylesPlan.plan14} ></img>
-                     </div>
-                  </div>
-                    <p><a href="https://opendata.paris.fr/map/les_conseil_de_quartier_du_14e/?location=16,48.82275,2.32633&basemap=stamen.toner" rel="noopener noreferrer" target="_blank">Ouvrir le plan dans une nouvelle fenêtre</a></p> 
-                    <h4 className={stylesPlan.fondjauneplan}>Le Conseil de quartier « Jean Moulin – Porte d’Orléans » couvre le territoire : </h4>
-                    <p >Boulevard Romain Rolland, 
-                        rue du Professeur H. Vincent côté pair, rue Emile Faguet côté pair, 86 à 160 rue de la Tombe Issoire, 
-                        39 à 85 rue d’Alésia, côté impair de la rue des Plantes (dans sa partie comprise entre la rue d’Alésia 
-                        et le boulevard Brune) et toutes les rues à l’intérieur de cette délimitation.
-                    </p>
-                   
-                </div>
-            </div>
-           
+ <div className={stylesPlan.columnright}>
+ <div className={stylesPlan.swappy}>
+   <div className={stylesPlan.ibottom}>
+     <img src="/plan-jmpo.jpg"  alt="Quartier Jean Moulin Porte d'Orléans" className={stylesPlan.plan14} ></img>
+     </div>
+     <div  className={stylesPlan.itop}>
+        <img src="/plan14e.jpg" alt="Plan des six quartiers du 14e  à Paris" className={stylesPlan.plan14} ></img>
+    </div>
+ </div>
+   <p><a href="https://opendata.paris.fr/map/les_conseil_de_quartier_du_14e/?location=16,48.82275,2.32633&basemap=stamen.toner" rel="noopener noreferrer" target="_blank">Ouvrir le plan dans une nouvelle fenêtre</a></p> 
+   <h4 className={stylesPlan.fondjauneplan}>Le Conseil de quartier « Jean Moulin – Porte d’Orléans » couvre le territoire : </h4>
+   <p >Boulevard Romain Rolland, 
+       rue du Professeur H. Vincent côté pair, rue Emile Faguet côté pair, 86 à 160 rue de la Tombe Issoire, 
+       39 à 85 rue d’Alésia, côté impair de la rue des Plantes (dans sa partie comprise entre la rue d’Alésia 
+       et le boulevard Brune) et toutes les rues à l’intérieur de cette délimitation.
+   </p>
+  
+</div>
+</div>
+
         </main>
 
     </Layout>
