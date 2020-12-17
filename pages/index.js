@@ -22,7 +22,7 @@ export default function Home() {
                 <div className={stylesPlan.column}>
                     <div className={styles.encadrebleu}>
                     <h2 className={styles.subtitle}>Agenda</h2>
-                    <h3 className={styles.subsubtitle}>Réunion des conseillers  : Annulé pour problème technique - Nos excuses</h3>
+                    <h3 className={styles.subsubtitle}>Réunion des conseillers  : Annulée le 17/12 pour problème technique - Nos excuses</h3>
                     <p><Link href="/blog">
                     <a title="Détails">Détails voir page Actualités</a>
                     </Link>
