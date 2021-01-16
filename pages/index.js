@@ -22,20 +22,20 @@ export default function Home() {
                 <div className={stylesPlan.column}>
                     <div className={styles.encadrebleu}>
                     <h2 className={styles.subtitle}>Agenda</h2>
-                    <h3 className={styles.subsubtitle}>Réunion des conseillers  : Annulée le 17/12 pour problème technique - Nos excuses</h3>
+                    <h3 className={styles.subsubtitle}>Réunion des conseillers le mercredi 20 janvier 19h</h3>
                     <p><Link href="/blog">
                     <a title="Détails">Détails voir page Actualités</a>
                     </Link>
                                 </p>
-                    <h3 className={styles.subsubtitle}>Comitée d'animation réunion zoom le 12 novembre</h3>
-                    <p><Link href="/anim/cra9">
-                    <a title="Compte Rendu du 12 novembre  2020">Compte Rendu</a>
+                    <h3 className={styles.subsubtitle}>Plenière du Conseil JM PO, 5 février 2021, 19h sur Zoom</h3>
+                    <p><Link href="/blog">
+                    <a title="Détails">Détails voir page Actualités</a>
                     </Link>
                                 </p>
                     
-                    <h3 className={styles.subsubtitle}>Plénière du Conseil de quartier : le 6 octobre 2020 </h3>
-                    <p><Link href="/anim/cra8">
-                    <a title="Compte Rendu du 6 octobre  2020">Compte Rendu</a>
+                    <h3 className={styles.subsubtitle}>Jour fixe - Assistance numérique - Chaque semaine le mardi à 18h30 </h3>
+                    <p><Link href="/blog">
+                    <a title="Détails">Détails voir page Actualités</a>
                     </Link>
                                 </p>
                     </div>
