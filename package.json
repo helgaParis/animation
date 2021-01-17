@@ -15,7 +15,8 @@
     "object-path": ">=0.11.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "vercel": "^20.1.1"
+    "vercel": "^20.1.1",
+     "ini": ">=1.3.6"
   },
   "devDependencies": {
     "eslint": "^7.13.0",
