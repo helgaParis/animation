@@ -51,8 +51,7 @@ export default function Cra8() {
             <h3> Autres sujets issus du débat   </h3> 
             <p>Plusieurs conseillers sont intervenus sur deux sujets concrets à évoquer en plénière : sur l’aménagement urbain et la mobilité (Porte d’Orléans, espace devant le Lidl Jourdan, angle Père Corentin-Jourdan…) d’une part, sur l’observatoire de la démocratie participative (modalités de renouvellement des membres), d’autre part.</p>
             
-            <p>La date de la prochaine séance plénière est fixée au vendredi 5 février 2021 à 19h (en visio par ZOOM), en espérant une participation de la maire et de ses adjoints concernés par l’ordre du jour. Une invitation sera également adressée aux autres CQ.
-            </p>
+            <p>La date de la prochaine séance plénière est fixée au vendredi 5 février 2021 à 19h (en visio par ZOOM), en espérant une participation de la maire et de ses adjoints concernés par l’ordre du jour. Une invitation sera également adressée aux autres CQ.      </p>
             
             
         </main>
