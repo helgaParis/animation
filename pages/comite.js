@@ -22,8 +22,7 @@ export default function Comite() {
         
         <h2 className={styles.subtitle} >Evénements à venir</h2>
         <ul>
-        <li>Vote de budget en support d'une proposition de la mairie du 25 novembre</li>
-        <li>Prochaine Réunion zoom le 10 décembre</li>
+        <li>Plenière du vendredi 5 février 2021</li>
        </ul>
         
         <nav  aria-label="navigation liste des comptes-rendus récents du comité">
