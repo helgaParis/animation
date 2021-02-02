@@ -23,8 +23,8 @@ export default function Home() {
                     <div className={styles.encadrebleu}>
                     <h2 className={styles.subtitle}>Agenda</h2>
                     <h3 className={styles.subsubtitle}>Réunion des conseillers le mercredi 20 janvier 19h</h3>
-                    <p><Link href="/blog">
-                    <a title="Détails">Détails voir page Actualités</a>
+                    <p><Link href="/anim/cra10">
+                    <a title="Compte Rendu">Voir Compte Rendu</a>
                     </Link>
                                 </p>
                     <h3 className={styles.subsubtitle}>Plenière du Conseil JM PO, 5 février 2021, 19h sur Zoom</h3>

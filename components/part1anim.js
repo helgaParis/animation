@@ -5,6 +5,11 @@ export default function Part1anim() {
     return (
         <div className={styles.menu3}>
             <ul>
+            <li className={styles.bolderText}>
+            <Link href="/anim/cra10">
+            <a title="Compte Rendu Plenière du 20 janvier 2021">20/01/21</a>
+            </Link>
+        </li>
             <li>
             <Link href="/anim/cra9">
             <a title="Compte Rendu du 12 novembre  2020">12/11/20</a>
@@ -12,7 +17,7 @@ export default function Part1anim() {
         </li>
             <li className={styles.bolderText}>
             <Link href="/anim/cra8">
-            <a title="Compte Rendu du 6 octobre  2020">6/10/20</a>
+            <a title="Plenière du 6 octobre  2020">6/10/20</a>
             </Link>
         </li>
             <li>
