@@ -18,9 +18,11 @@ export default function Climat() {
             <ul>
               <li>La pollution de l'air, sonore, lumineuse</li>
               <li>sur la végétalisation (espace au sol ou sur mur) </li>
-              <li>sur le recyclage des déchets alimentaires (installation de composts)</li>
+              <li>sur le recyclage des déchets alimentaires (installation de composts*)</li>
               <li>etc...</li>
               </ul>
+              <a href="https://www.jecomposteenville.fr/trouver-ou-composter/" rel="noopener" target="_blank"> *Découvrir le site du compostage</a> 
+             
             <h3 className={styles.subsubtitle}>Nous vous invitons à participer à cette commission </h3>
             <p>Réunions  tous les derniers mercredi de chaque mois .</p>
             <h3 className={styles.subsubtitle}>Nous vous invitons également à nous communiquer {""}
