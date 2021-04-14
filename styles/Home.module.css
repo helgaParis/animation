@@ -181,8 +181,13 @@
   font-size: 1.1em;
   font-weight: 600;
   /* background-color: #aaccff; */
+ 
+}
+
+.subsubtitle ul li{
   list-style: none;
 }
+
 .boldText{
   font-weight:500  ;
   color:rgb(165, 32, 32);
