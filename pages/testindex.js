@@ -29,7 +29,7 @@ export default function Hometest({ articles }) {
                                 {articles.map((article) => (
                                     <li key={article.id}>
                                     
-                                        {article.title && <h2 className={styles.subsubtitle} >{article.title}</h2>}                                      
+                                        {article.title && <h3 className={styles.subsubtitle} >{article.title}</h3>}                                      
                                       
                                         {article.link && <p>{""}
                                             <a

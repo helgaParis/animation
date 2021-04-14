@@ -1,0 +1,7 @@
+.dyn{
+    margin-bottom:1rem;
+    border: 2px ridge #E41525;
+    padding: 0 2%;
+    overflow-y: scroll;
+    max-height: 25vh;
+}
