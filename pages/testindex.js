@@ -109,7 +109,7 @@ export async function getStaticProps() {
         .collection("articles")
         .find({ home: true })
         .sort({ date: -1 })
-        .limit(3)
+        .limit(2)
         .toArray();
 
     return {
