@@ -175,6 +175,7 @@
 .subtitle{
   font-size: 1.2em;
   /* background-color: #ffccaa; */
+  list-style: none;
 }
 
 .subsubtitle{
@@ -184,9 +185,9 @@
  
 }
 
-.subsubtitle ul li{
+/* .subsubtitle ul li{
   list-style: none;
-}
+} */
 
 .boldText{
   font-weight:500  ;
