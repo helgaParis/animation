@@ -5,7 +5,7 @@ import stylesPlan from '../styles/plan.module.css'
 import Link from 'next/link'
 
 
-export default function Home() {
+export default function Hometest() {
   return (
     <Layout >
         <Head>
