@@ -1,0 +1,47 @@
+.text1 {
+    margin-top: -150px;
+    text-align: center;
+}
+
+.degrade {
+    background: linear-gradient(#fff, #fff, rgb(171, 199, 222), rgb(171, 199, 222), #fff);
+    width: 100vw;
+    height: 85vh;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.errimage {
+    border-radius: 50% auto;
+    display: block;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vh;
+}
+
+/*.errimage .Image{
+    border-radius: 50%;
+
+}
+*/
+
+@media screen and (min-width: 300px) and (max-width: 640px) and (-webkit-device-pixel-ratio:2) {
+    .errimage {
+        height: 50vh;
+        width: auto;
+    }
+    /*.text{
+        font-size: 0.5rem;
+    }*/
+}
+
+@media screen and (min-width:641px) and (max-width: 920px) {
+    .errimage {
+        height: 50vh;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 920px) {}

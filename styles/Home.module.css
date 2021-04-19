@@ -175,18 +175,12 @@
 .subtitle{
   font-size: 1.2em;
   /* background-color: #ffccaa; */
- 
 }
 
 .subsubtitle{
   font-size: 1.1em;
   font-weight: 600;
   /* background-color: #aaccff; */
- 
-}
-
-.subtitle ul li{
-  list-style: none;
 }
 
 .boldText{
