@@ -45,7 +45,7 @@ console.log("process.env.mongodb.uri ", process.env.MONGODB_URI)
 console.log("heard from collection contacts")
   // Select the contact collection from the database
   const contacts = await collection.find({}).toArray()
-   /console.log("my contacts: ",contacts);  
+   console.log("my contacts: ",contacts);  
   
    
  
