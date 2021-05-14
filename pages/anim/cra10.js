@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 import Nav1anim from '../../components/nav1anim'
 
-export default function Cra8() {
+export default function Cra10() {
     return (
         <Layout >
         <Head>
@@ -13,7 +13,7 @@ export default function Cra8() {
         </Head>
         <main className={styles.main}>
             <Nav1anim></Nav1anim>
-            <h1 className={styles.title}>Comité d’animation, réunion  du 20 janvier  2020</h1>
+            <h1 className={styles.title}>Comité d’animation, réunion  du 20 janvier  2021</h1>
             <p>Visio réunion : 8 participants</p>
             <p>Le Comité d'animation souhaite une année 2021 aussi bonne que possible dans le contexte que nous connaissons. En effet, nous traversons une période difficile avec le virus, et l'activité de notre conseil de quartier s'en ressent. Pour autant, Il est important de maintenir le lien entre nous, et continuer à porter des projets à travers les commissions.</p>
             <p>Le Comité d’animation renouvelle ses excuses pour les deux rdv qui n'ont pas pu se dérouler comme prévu avant les fêtes de fin d'année. </p>
