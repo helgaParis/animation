@@ -17,22 +17,33 @@ export default function Ancienanim() {
                 </li>
                 <li className={styles.bolderText}>
                     <Link href="/ancien/p2017sept14.pdf" >
-                    <a target="_blank" title="Plenière du 14 septembre  2017">14/09/17</a>
+                    <a target="_blank" title="Plenière du 14 septembre  2017">14/9/17</a>
+                    </Link>
+                </li>
+                </li>
+                <li className={styles.bolderText}>
+                    <Link href="/ancien/2016-10-17pleniere.pdf" >
+                    <a target="_blank" title="Plenière du 17 octobre  2016">17/10/16</a>
+                    </Link>
+                </li>  </li>
+                <li className={styles.bolderText}>
+                    <Link href="/ancien/2016-09-27pleniere.pdf" >
+                    <a target="_blank" title="Plenière du 9 septembre  2016">9/9</a>
                     </Link>
                 </li>
                 <li className={styles.bolderText}>
                     <Link href="/ancien/p2016mai17.pdf" >
-                    <a target="_blank" title="Plenière du 17 mai  2016">17/05/16</a>
+                    <a target="_blank" title="Plenière du 17 mai  2016">17/5</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/ancien/a2016avril11.pdf" >
-                    <a target="_blank" title="Compte Rendu du 11 avril  2016">11/04/16</a>
+                    <a target="_blank" title="Compte Rendu du 11 avril  2016">11/4</a>
                     </Link>
                 </li>
                     <li>
                     <Link href="/ancien/a2016janv14.pdf" >
-                    <a target="_blank" title="Compte Rendu du 14 janvier  2016">14/01/16</a>
+                    <a target="_blank" title="Compte Rendu du 14 janvier  2016">14/1/16</a>
                     </Link>
                 </li>
                 </ul>
