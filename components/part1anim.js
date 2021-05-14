@@ -6,13 +6,16 @@ export default function Part1anim() {
         <div className={styles.menu3}>
             <ul>
             <li className={styles.bolderText}>
+            <a href="https://cdn.paris.fr/paris/2021/04/19/8d2af1ef239f1e54f7ba95af3b8b41b6.pdf"  rel="noopener noreferrer" target="_blank" title="Compte Rendu Plenière du 31 mars 2021">14/4/21</a>
+        </li>
+            <li >
             <Link href="/anim/cra11">
-            <a title="Compte Rendu Plenière du 31 mars 2021">31/3/21</a>
+            <a title="Compte Rendu  du 31 mars 2021">31/3</a>
             </Link>
         </li>
-            <li className={styles.bolderText}>
+            <li >
             <Link href="/anim/cra10">
-            <a title="Compte Rendu Plenière du 20 janvier 2021">20/1</a>
+            <a title="Compte Rendu du 20 janvier 2021">20/1</a>
             </Link>
         </li>
             <li>
