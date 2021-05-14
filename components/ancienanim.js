@@ -20,12 +20,11 @@ export default function Ancienanim() {
                     <a target="_blank" title="Plenière du 14 septembre  2017">14/9/17</a>
                     </Link>
                 </li>
-                </li>
                 <li className={styles.bolderText}>
                     <Link href="/ancien/2016-10-17pleniere.pdf" >
                     <a target="_blank" title="Plenière du 17 octobre  2016">17/10/16</a>
                     </Link>
-                </li>  </li>
+                </li> 
                 <li className={styles.bolderText}>
                     <Link href="/ancien/2016-09-27pleniere.pdf" >
                     <a target="_blank" title="Plenière du 9 septembre  2016">9/9</a>
