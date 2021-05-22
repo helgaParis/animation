@@ -25,8 +25,8 @@ export default function Hometest({ articles }) {
                         <div className={styles.encadrebleu}>
                             <h2 className={styles.subtitle}>Agenda</h2>
                             <ul >
-                                {articles.map((article) => (
-                                    <li key={article.id}  style={{ listStyleType: "none "}}>
+                                {articles.map((article) => (                              
+                                    <li key={article._id}  style={{ listStyleType: "none "}}>
                                     
                                         {article.title && <h3 className={styles.subsubtitle} >{article.title}</h3>}                                      
                                       

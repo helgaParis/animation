@@ -8,7 +8,7 @@ export default function Actualites({ articles }) {
 	  <h1>Les nouvelles du quartier et du conseil du quartier</h1>
 	  <ul>
 		{articles.map((article) => (
-		  <li key={article.id}>
+		  <li key={article._id}>
 			<h2>{article.title}</h2>
 			<h3>{article.text}</h3>
 			<p>{article.author}</p>

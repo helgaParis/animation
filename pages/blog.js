@@ -22,7 +22,7 @@ export default function Blog({articles}) {
         <p className={styles.subsubtitle}>Retrouvez sur cette page les dernières nouvelles du conseil de quartier Jean Moulin - Porte d’Orléans et de l’ensemble de ses commissions.</p>     
         <ul >
         {articles.map((article) => (
-          <li key={article.id}>
+          <li key={article._id}>
           {article.title && <h2  className={styles.blogtitle} >{article.title}</h2>}
           {article.text && <p  className={styles.blogtext}>{article.text}</p>}
           {article.image1 && <img src={article.image1} className={styles.blogimage} alt={article.alt1} ></img>}
