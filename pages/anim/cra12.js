@@ -29,6 +29,9 @@ export default function Cra12() {
             <p>Madame Pouget précise qu’il s’agit là d’un objectif de court terme, et que, parallèlement, un Comité de suivi mène une réflexion de long terme (scénario sur 10 ans) pour un réaménagement complet du secteur de la Porte d’Orléans. Ce que confirme Guillaume Durand en indiquant que l’instance qui suit ce dossier comporte de très nombreux participants, élus de Paris et petite couronne, acteurs opérationnels, bureau d’études (APUR). Ce dossier étant très complexe, très technique, il est difficile d’y associer à ce stade les habitants.</p>
             <p>Le CQ regrette d’être ainsi écarté a priori de la réflexion et considère que les citoyens ont toute légitimité à être formés et intégrés dans une démarche de co-expertise. 
             Guillaume Durand s’engage à organiser à la rentrée prochaine une réunion avec le CQ pour faire un point sur l’avancement des travaux menés par le Comité de suivi.   </p>
+            <a href="/ratp-gare- routiere-reyer16-juin-2021.pdf" target="_blank"
+            title="projet de la gare routière en pdf" >Présentation du projet de la gare routière en pdf</a>
+            
             
             <h2> Accord passé entre la RATP et Amazon + Chronopost</h2>
             <p>A l’appui d’un visuel, monsieur Pineau présente le contenu de l’accord en précisant que son application sur la Porte d’Orléans ne concerne qu’Amazon, le dépôt pour les livraisons de Chronopost se situant à Saint Denis (93).</p>
