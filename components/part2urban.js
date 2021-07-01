@@ -6,6 +6,11 @@ export default function Part2urban() {
         <div className={styles.menu3}>
             <ul>
                 <li>
+                <Link href="/pdfs/forum">
+                <a title="Forum Urbain du 6 juin 2021">Forum Urbain</a>
+                </Link>
+            </li>
+                <li>
                     <Link href="/urban/p1">
                     <a title="Projet Porte d'Orléans" >Projet Porte d'Orléans</a>
                     </Link>
