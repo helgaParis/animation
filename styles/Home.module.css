@@ -136,6 +136,7 @@
     margin-bottom:1rem;
     border: 2px ridge #66BDFF;
     padding: 0 2%;
+    overflow: hidden;
 }
 .encadreiframe{
   position: relative;
@@ -257,6 +258,6 @@
         display:block;
         line-height: 3rem;
       }
-      
-  }
+    
+   }
   
