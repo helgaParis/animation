@@ -15,7 +15,7 @@ export default function ForumUrbain() {
             
            <iframe 
            width = "999px" 
-           height="85vH" 
+           height="800px" 
            frameBorder="0" 
           title="Forum Urbain du 6 juin 2021" 
           src="/forum-urbain-060621.pdf"
