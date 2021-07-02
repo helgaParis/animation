@@ -137,6 +137,16 @@
     border: 2px ridge #66BDFF;
     padding: 0 2%;
 }
+.encadreiframe{
+ width: 95%;
+ padding: 0 1%;
+ margin: 2% auto 4%;
+ min-height: 80vh;
+ padding: 0 0.5rem;
+ display: block;
+  left:0;
+  
+}
   .footer {
     width: 100%;
     height: 100px;
