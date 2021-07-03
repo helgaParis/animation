@@ -1,0 +1,27 @@
+
+.input{
+	font-size: 1.2em;
+}
+.text{
+	font-size:1.2em;
+	display: block;
+	width: 50vw;
+	/* background-color:pink; */
+}
+.submit{
+	font-size: 1.1em;
+	background-color:#66bdFF;
+	border-bottom: 1px solid #3366CC;
+	border-right: 1px solid #3366CC;
+	border-left: 1px solid #66bdFF;
+	border-top: 1px solid #66bdFF;
+	border-radius:4px;
+	float: right;
+	padding:1vw 2vw;
+	margin-right: 10vw;
+	margin-bottom:3%;
+}
+.extra{
+	margin-top:4em;
+	 }
+
