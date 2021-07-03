@@ -43,7 +43,7 @@ export default function handler (req, res) {
     transporter.sendMail(mailData, function (err, info) {
 		if(err)
 		  console.log(err)
-		else
+		//else
 		  //console.log(info.messageId)
   		})
 	//il faut que le handler retourne un status 200 au fetcher pour que le formulaire se vide ou autre chose se passe sur la page
