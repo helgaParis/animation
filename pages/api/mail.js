@@ -44,7 +44,7 @@ export default function handler (req, res) {
 		if(err)
 		  console.log(err)
 		else
-		  console.log(info.messageId)
+		  //console.log(info.messageId)
   		})
 	//il faut que le handler retourne un status 200 au fetcher pour que le formulaire se vide ou autre chose se passe sur la page
 	res.status(200).json({})
