@@ -49,8 +49,14 @@ export default function Contribue() {
             if (res.status === 200) {
               //console.log("Response succeeded!");
               //alert(res.status);
-              //ici c'est sur que le mail a été envoyé, raffraichis la page
-              window.location.reload();
+              
+              //ici c'est sur que le mail a été envoyé, rafraîchis la page
+             // window.location.reload(); 
+             setContactdata({
+             firstName: "",
+             lastName: "",
+             email:"",
+             message:"   Votre messsage a été envoyé !"})
             }
       });
       // ici c'est seulement envoyé à l'api
