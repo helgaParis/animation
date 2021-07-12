@@ -24,9 +24,9 @@ export default function handler (req, res) {
  
   	const mailData = {
 		from: `artists.asf@gmail.com`,
-		to: 'conseil14@asf-web.fr',
+		to: 'artists.asf@gmail.com',
 		subject: `Message via le formulaire de contact du site `,
-		text: req.body.message + " Envoyé de : " + req.body.email,
+		text: req.body.message + " | Envoyé de : " + req.body.email,
 		html: `<div style="font-size:1.3em; font-weight:600;">
 			<p>Repondre à cette adresse email :
 			${req.body.email}</p>
