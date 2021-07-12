@@ -52,9 +52,9 @@ export default function handler (req, res) {
 	//res.redirect([status,] path)
 
 }
-//Next a un resolver inclus dans le handler, un external resolver peut terminer le processus, mais n'envoie pas de status 200.
-// export const config = {
-// 	  api: {
-// 		externalResolver: true,
-// 	  },
-// 	}
+Next a un resolver inclus dans le handler, un external resolver peut terminer le processus, mais n'envoie pas de status 200.
+export const config = {
+	  api: {
+		externalResolver: true,
+	  },
+	}
