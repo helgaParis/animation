@@ -43,18 +43,18 @@ export default function handler (req, res) {
     transporter.sendMail(mailData, function (err, info) {
 		if(err)
 		  console.log(err)
-		//else
-		  //console.log(info.messageId)
+		else
+		  console.log(info.messageId)
   		})
 	//il faut que le handler retourne un status 200 au fetcher pour que le formulaire se vide ou autre chose se passe sur la page
-	res.status(200).json({})
+	res.status(200).json({resultat:"ok"})
 	//il semble avoir un bug - il faut ajouter un json vide (ou un message réel) pour que le handler signale la fin. Alternativement, on peut faire un redirect, ex à une page "Merci pour la contribution"
 	//res.redirect([status,] path)
 
 }
 //Next a un resolver inclus dans le handler, un external resolver peut terminer le processus, mais n'envoie pas de status 200.
-export const config = {
-	  api: {
-		externalResolver: true,
-	  },
-	}
+// export const config = {
+// 	  api: {
+// 		externalResolver: true,
+// 	  },
+// 	}
