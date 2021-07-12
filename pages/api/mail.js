@@ -42,9 +42,10 @@ export default function handler (req, res) {
 	//pour tester ou voir toute le processus, mettre console.log(info) 
     transporter.sendMail(mailData, function (err, info) {
 		if(err)
-		  console.log(err)
+		  console.log(err, "cela ne marche pas dans le sendMail")
 		else
 		  console.log(info.messageId)
+		  console.log(mailData)
   		})
 	//il faut que le handler retourne un status 200 au fetcher pour que le formulaire se vide ou autre chose se passe sur la page
 	res.status(200).json({resultat:"ok"})
