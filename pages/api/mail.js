@@ -6,10 +6,10 @@ export default function handler (req, res) {
   require('dotenv').config()
 
   //si un autre méthode que post (notre formulaire) est employé, le handler refuse de traiter la requette. Pour tester, débloquer la reponse json
-  if (req.method != "POST") {
-	return res.status(405)
-	//.json({ message: "Method not allowed" });
-  }
+  // if (req.method != "POST") {
+	// return res.status(405)
+	// //.json({ message: "Method not allowed" });
+  // }
   
 	let nodemailer = require('nodemailer')
     const transporter = nodemailer.createTransport({
